@@ -19,8 +19,10 @@ OUTPUT_META = OUTPUT_DIR / "meta.json"
 MID_CAP_MIN = 2_000.0
 MID_CAP_MAX = 10_000.0
 FMP_BASE = "https://financialmodelingprep.com/api/v3"
-# FMP free plan: ~250 calls/day. One call per ticker, no batch endpoint.
-MAX_LIVE_QUOTES = 200
+# FMP free plan: 250 calls/day. Keep a small buffer for manual checks.
+DEFAULT_MAX_LIVE_QUOTES = 240
+QUOTE_GROUP_SIZE = 20
+QUOTE_GROUP_PAUSE_SECONDS = 1.0
 
 
 def _load_env_file(path: Path) -> None:
@@ -56,6 +58,16 @@ def _safe_pct(value) -> float | None:
         return float(text)
     except ValueError:
         return None
+
+
+def _env_int(name: str, default: int) -> int:
+    value = os.environ.get(name)
+    if value is None:
+        return default
+    try:
+        return int(value)
+    except ValueError:
+        return default
 
 
 def _score_from_bounds(value: float | None, lo: float, hi: float, invert: bool = False) -> float:
@@ -185,7 +197,18 @@ def _fmp_quote(symbol: str, api_key: str) -> dict:
     return data[0] if isinstance(data, list) and data else {}
 
 
-def _refresh_from_fmp(seed_rows: list[dict], api_key: str) -> list[dict]:
+def _quote_timestamp(value) -> str | None:
+    numeric = _safe_float(value)
+    if numeric is None:
+        return None
+    try:
+        return datetime.fromtimestamp(numeric, tz=timezone.utc).isoformat()
+    except (OverflowError, OSError, ValueError):
+        return None
+
+
+def _refresh_from_fmp(seed_rows: list[dict], api_key: str) -> tuple[list[dict], dict]:
+    max_live_quotes = max(0, min(_env_int("EDGE_BOT_DEMO_MAX_LIVE_QUOTES", DEFAULT_MAX_LIVE_QUOTES), DEFAULT_MAX_LIVE_QUOTES))
     # Sort by market cap desc so the most liquid names are fetched first
     # if we hit the daily call cap.
     sorted_seed = sorted(
@@ -193,7 +216,7 @@ def _refresh_from_fmp(seed_rows: list[dict], api_key: str) -> list[dict]:
         key=lambda r: r.get("market_cap_m") or 0,
         reverse=True,
     )
-    to_fetch = sorted_seed[:MAX_LIVE_QUOTES]
+    to_fetch = sorted_seed[:max_live_quotes]
     ticker_set = {row["ticker"] for row in to_fetch}
 
     quote_map: dict[str, dict] = {}
@@ -205,9 +228,10 @@ def _refresh_from_fmp(seed_rows: list[dict], api_key: str) -> list[dict]:
                 quote_map[ticker] = quote
         except Exception as exc:
             print(f"  Quote failed for {ticker}: {exc}")
-        # Small pause to avoid hitting per-second rate limits
-        if i and i % 10 == 0:
-            time.sleep(0.5)
+        # Fetch in small groups to avoid per-second throttling while staying
+        # compatible with free-plan single-symbol endpoints.
+        if i and i % QUOTE_GROUP_SIZE == 0:
+            time.sleep(QUOTE_GROUP_PAUSE_SECONDS)
 
     print(f"  Fetched live quotes for {len(quote_map)}/{len(to_fetch)} tickers")
 
@@ -216,10 +240,26 @@ def _refresh_from_fmp(seed_rows: list[dict], api_key: str) -> list[dict]:
         ticker = seed["ticker"]
         if ticker not in ticker_set:
             # Beyond MAX_LIVE_QUOTES — keep seed data as-is
-            refreshed.append(seed)
+            refreshed.append({
+                **seed,
+                "data_source": "watchlist_csv_seed",
+                "live_quote": False,
+                "quote_updated_at": None,
+                "refresh_note": "Not refreshed because the free API budget was reserved for the largest names first.",
+            })
             continue
 
         quote = quote_map.get(ticker, {})
+        if not quote:
+            refreshed.append({
+                **seed,
+                "data_source": "watchlist_csv_seed",
+                "live_quote": False,
+                "quote_updated_at": None,
+                "refresh_note": "FMP quote was unavailable during the latest refresh; showing seed watchlist data.",
+            })
+            continue
+
         market_cap = _safe_float(quote.get("marketCap")) or seed["market_cap_m"]
         market_cap_m = market_cap / 1_000_000 if market_cap and market_cap > 100_000 else market_cap
 
@@ -237,10 +277,24 @@ def _refresh_from_fmp(seed_rows: list[dict], api_key: str) -> list[dict]:
                 "change_pct": _safe_float(quote.get("changesPercentage")) or seed["change_pct"],
                 "volume": _safe_float(quote.get("volume")) or seed["volume"],
                 "pe_ratio": _safe_float(quote.get("pe")) or seed["pe_ratio"],
+                "data_source": "financial_modeling_prep",
+                "live_quote": True,
+                "quote_updated_at": _quote_timestamp(quote.get("timestamp")),
+                "refresh_note": "Refreshed from FMP using a single-symbol quote call.",
             }
         )
 
-    return refreshed
+    return refreshed, {
+        "provider": "financial_modeling_prep",
+        "provider_timeframe": "end_of_day_on_free_plan",
+        "daily_call_budget": 250,
+        "reserved_call_buffer": 250 - max_live_quotes,
+        "attempted_live_quotes": len(to_fetch),
+        "successful_live_quotes": len(quote_map),
+        "single_symbol_endpoint": "/api/v3/quote/{symbol}",
+        "quote_group_size": QUOTE_GROUP_SIZE,
+        "quote_group_pause_seconds": QUOTE_GROUP_PAUSE_SECONDS,
+    }
 
 
 def _enrich(rows: list[dict]) -> list[dict]:
@@ -285,6 +339,10 @@ def _enrich(rows: list[dict]) -> list[dict]:
                 "market_cap_b": round((row["market_cap_m"] or 0.0) / 1000.0, 2),
                 "dollar_volume_m": round(dollar_volume_m, 2),
                 "volume_ratio": round(volume_ratio, 2),
+                "data_source": row.get("data_source", "watchlist_csv_seed"),
+                "live_quote": bool(row.get("live_quote")),
+                "quote_updated_at": row.get("quote_updated_at"),
+                "refresh_note": row.get("refresh_note", "Seed data from the imported watchlist."),
                 "interesting_badges": _interesting_badges(change_pct, volume_ratio, pe_ratio, dollar_volume_m),
                 "why_now": _why_now(change_pct, volume_ratio, pe_ratio, dollar_volume_m),
                 "signals": {
@@ -316,9 +374,20 @@ def build_dataset() -> tuple[list[dict], dict]:
     ).strip()
 
     source = "watchlist_csv_seed"
+    quote_stats = {
+        "provider": "watchlist_csv_seed",
+        "provider_timeframe": "seed_snapshot",
+        "daily_call_budget": 0,
+        "reserved_call_buffer": 0,
+        "attempted_live_quotes": 0,
+        "successful_live_quotes": 0,
+        "single_symbol_endpoint": None,
+        "quote_group_size": 0,
+        "quote_group_pause_seconds": 0,
+    }
     if api_key:
         try:
-            seed = _refresh_from_fmp(seed, api_key)
+            seed, quote_stats = _refresh_from_fmp(seed, api_key)
             source = "financial_modeling_prep"
         except Exception as exc:
             print(f"FMP refresh failed, falling back to seed CSV: {exc}")
@@ -332,6 +401,7 @@ def build_dataset() -> tuple[list[dict], dict]:
         "sectors": sectors,
         "refresh_schedule": "Weekdays after US market close",
         "market_cap_band": {"min_musd": MID_CAP_MIN, "max_musd": MID_CAP_MAX},
+        "quote_stats": quote_stats,
     }
     return dataset, meta
 

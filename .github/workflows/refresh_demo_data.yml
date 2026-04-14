@@ -2,9 +2,8 @@ name: Refresh Demo Data
 
 on:
   schedule:
-    # 16:20 ET after US cash close
-    # 20:20 UTC during EDT, 21:20 UTC during EST
-    - cron: "20 20 * * 1-5"
+    # 21:20 UTC is safely after the US cash close in both EST and EDT.
+    # Keeping one run per weekday protects the FMP free-tier call budget.
     - cron: "20 21 * * 1-5"
   workflow_dispatch:
 

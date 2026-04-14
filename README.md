@@ -79,6 +79,24 @@ To deploy publicly:
 The refresh workflow runs every weekday after the US market close and commits updated demo data.
 That commit triggers the Pages deployment workflow automatically.
 
+Free FMP accounts have a limited daily request budget. The dashboard uses
+single-symbol quote calls, defaults to 240 refreshed tickers per run, and leaves
+a small buffer for manual checks. Stocks outside that daily budget remain
+searchable, but the UI marks them as seed watchlist rows rather than live quotes.
+On the free/basic tier, treat this as end-of-day refreshed market data rather
+than streaming real-time broker pricing.
+
+To audit the deployed page against a fresh FMP quote:
+
+```bash
+./.venv/bin/python scripts/audit_live_data.py SM AAL
+```
+
+If a broker display such as eToro disagrees with the dashboard, check whether
+the dashboard row says it was live-refreshed, compare the quote timestamp, and
+remember that CFD/broker screens may show bid/ask, spreads, delayed quotes,
+after-hours movement, or a different change baseline from FMP's quote endpoint.
+
 ### First Push To `TheDonn411/edge-bot`
 
 If this folder is not already a git checkout, publish it with:

@@ -101,7 +101,22 @@ input, select {
   padding: 14px 16px;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
   gap: 12px;
+  overflow: hidden;
+}
+
+.summary-bar > div {
+  flex: 1 1 108px;
+  min-width: 0;
+}
+
+.summary-bar strong {
+  display: block;
+  line-height: 1.12;
+  overflow-wrap: anywhere;
+  hyphens: auto;
 }
 
 .meta-label {
@@ -262,6 +277,15 @@ input, select {
   color: var(--ink);
   line-height: 1.7;
   font-size: 1.05rem;
+}
+
+.freshness-copy {
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+  margin: 16px 0 0;
+  padding-top: 14px;
 }
 
 .setup-pill {

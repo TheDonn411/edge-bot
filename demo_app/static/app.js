@@ -12,6 +12,7 @@ const elements = {
   visibleCount: document.getElementById("visibleCount"),
   refreshStamp: document.getElementById("refreshStamp"),
   dataSource: document.getElementById("dataSource"),
+  quoteCoverage: document.getElementById("quoteCoverage"),
   refreshSchedule: document.getElementById("refreshSchedule"),
   topIdeas: document.getElementById("topIdeas"),
   detailTicker: document.getElementById("detailTicker"),
@@ -25,6 +26,7 @@ const elements = {
   detailMarketCap: document.getElementById("detailMarketCap"),
   detailSetupLabel: document.getElementById("detailSetupLabel"),
   detailWhyNow: document.getElementById("detailWhyNow"),
+  detailFreshness: document.getElementById("detailFreshness"),
   signalBars: document.getElementById("signalBars"),
   detailThesis: document.getElementById("detailThesis"),
 };
@@ -92,7 +94,8 @@ function renderSectorOptions() {
 }
 
 function renderTopIdeas() {
-  const top = state.stocks.slice(0, 5);
+  const liveStocks = state.stocks.filter((stock) => stock.live_quote);
+  const top = (liveStocks.length ? liveStocks : state.stocks).slice(0, 5);
   elements.topIdeas.innerHTML = top.map((stock) => `
     <button class="top-idea" data-top-ticker="${stock.ticker}">
       <strong>${stock.ticker} • ${scoreToPct(stock.signals.composite_score)}</strong>
@@ -145,6 +148,9 @@ async function selectStock(ticker) {
 }
 
 function renderDetail(stock) {
+  const quoteTime = stock.quote_updated_at
+    ? new Date(stock.quote_updated_at).toLocaleString()
+    : "not live-refreshed";
   elements.detailTicker.textContent = stock.ticker;
   elements.detailCompany.textContent = stock.company;
   elements.detailMeta.textContent = `${stock.sector} • ${stock.industry} • ${stock.country}`;
@@ -159,6 +165,9 @@ function renderDetail(stock) {
   elements.detailMarketCap.textContent = `${formatNumber(stock.market_cap_b)}B`;
   elements.detailSetupLabel.textContent = stock.setup_label;
   elements.detailWhyNow.textContent = stock.why_now || "This stock stands out for a mix of liquidity, momentum, and valuation context.";
+  elements.detailFreshness.textContent = stock.live_quote
+    ? `Price, move, volume, market cap, and P/E were refreshed from FMP. Quote timestamp: ${quoteTime}.`
+    : `${stock.refresh_note || "This row is showing seed watchlist data, not a fresh market quote."}`;
 
   const labels = [
     ["Momentum", stock.signals.momentum_score],
@@ -194,6 +203,7 @@ function clearDetail() {
   elements.detailMarketCap.textContent = "--";
   elements.detailSetupLabel.textContent = "Monitor";
   elements.detailWhyNow.textContent = "Pick a stock from the list to see its current angle.";
+  elements.detailFreshness.textContent = "Freshness will appear here after selecting a stock.";
   elements.signalBars.innerHTML = "";
   elements.detailThesis.innerHTML = "";
 }
@@ -209,8 +219,12 @@ async function init() {
   state.allStocks = await stocksResponse.json();
   const meta = await metaResponse.json();
   state.sectors = meta.sectors || [];
+  const quoteStats = meta.quote_stats || {};
   elements.refreshStamp.textContent = new Date(meta.generated_at).toLocaleString();
   elements.dataSource.textContent = meta.source || "unknown";
+  elements.quoteCoverage.textContent = quoteStats.daily_call_budget
+    ? `${quoteStats.successful_live_quotes || 0}/${quoteStats.daily_call_budget}`
+    : "seed only";
   elements.refreshSchedule.textContent = meta.refresh_schedule || "manual";
   await loadStocks();
 }
