@@ -3,6 +3,7 @@ from __future__ import annotations
 import csv
 import json
 import os
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -18,7 +19,8 @@ OUTPUT_META = OUTPUT_DIR / "meta.json"
 MID_CAP_MIN = 2_000.0
 MID_CAP_MAX = 10_000.0
 FMP_BASE = "https://financialmodelingprep.com/api/v3"
-CHUNK_SIZE = 100
+# FMP free plan: ~250 calls/day. One call per ticker, no batch endpoint.
+MAX_LIVE_QUOTES = 200
 
 
 def _load_env_file(path: Path) -> None:
@@ -171,61 +173,70 @@ def _read_seed_watchlist(path: Path) -> list[dict]:
     return parsed
 
 
-def _chunked(items: list[str], size: int) -> list[list[str]]:
-    return [items[i : i + size] for i in range(0, len(items), size)]
-
-
-def _fmp_get(endpoint: str, symbols: list[str], api_key: str) -> list[dict]:
-    joined = ",".join(symbols)
+def _fmp_quote(symbol: str, api_key: str) -> dict:
+    """Fetch a single-symbol quote from FMP (works on all plan tiers)."""
     response = requests.get(
-        f"{FMP_BASE}/{endpoint}/{joined}",
+        f"{FMP_BASE}/quote/{symbol}",
         params={"apikey": api_key},
-        timeout=30,
+        timeout=15,
     )
     response.raise_for_status()
     data = response.json()
-    return data if isinstance(data, list) else []
+    return data[0] if isinstance(data, list) and data else {}
 
 
 def _refresh_from_fmp(seed_rows: list[dict], api_key: str) -> list[dict]:
-    tickers = [row["ticker"] for row in seed_rows]
-    seed_map = {row["ticker"]: row for row in seed_rows}
+    # Sort by market cap desc so the most liquid names are fetched first
+    # if we hit the daily call cap.
+    sorted_seed = sorted(
+        seed_rows,
+        key=lambda r: r.get("market_cap_m") or 0,
+        reverse=True,
+    )
+    to_fetch = sorted_seed[:MAX_LIVE_QUOTES]
+    ticker_set = {row["ticker"] for row in to_fetch}
 
-    quote_rows: dict[str, dict] = {}
-    profile_rows: dict[str, dict] = {}
+    quote_map: dict[str, dict] = {}
+    for i, row in enumerate(to_fetch):
+        ticker = row["ticker"]
+        try:
+            quote = _fmp_quote(ticker, api_key)
+            if quote:
+                quote_map[ticker] = quote
+        except Exception as exc:
+            print(f"  Quote failed for {ticker}: {exc}")
+        # Small pause to avoid hitting per-second rate limits
+        if i and i % 10 == 0:
+            time.sleep(0.5)
 
-    for chunk in _chunked(tickers, CHUNK_SIZE):
-        for row in _fmp_get("quote", chunk, api_key):
-            symbol = (row.get("symbol") or "").upper()
-            if symbol:
-                quote_rows[symbol] = row
-        for row in _fmp_get("profile", chunk, api_key):
-            symbol = (row.get("symbol") or "").upper()
-            if symbol:
-                profile_rows[symbol] = row
+    print(f"  Fetched live quotes for {len(quote_map)}/{len(to_fetch)} tickers")
 
     refreshed: list[dict] = []
-    for ticker in tickers:
-        seed = seed_map[ticker]
-        quote = quote_rows.get(ticker, {})
-        profile = profile_rows.get(ticker, {})
+    for seed in seed_rows:
+        ticker = seed["ticker"]
+        if ticker not in ticker_set:
+            # Beyond MAX_LIVE_QUOTES — keep seed data as-is
+            refreshed.append(seed)
+            continue
 
-        market_cap = _safe_float(profile.get("mktCap")) or _safe_float(quote.get("marketCap")) or seed["market_cap_m"]
-        market_cap_m = market_cap / 1_000_000 if market_cap and market_cap > 100_000_000 else market_cap
-        country = (profile.get("country") or seed["country"] or "").strip()
+        quote = quote_map.get(ticker, {})
+        market_cap = _safe_float(quote.get("marketCap")) or seed["market_cap_m"]
+        market_cap_m = market_cap / 1_000_000 if market_cap and market_cap > 100_000 else market_cap
 
         refreshed.append(
             {
                 "ticker": ticker,
-                "company": (profile.get("companyName") or seed["company"] or ticker).strip(),
-                "sector": (profile.get("sector") or seed["sector"] or "Unknown").strip(),
-                "industry": (profile.get("industry") or seed["industry"] or "Unknown").strip(),
-                "country": country or "Unknown",
+                # Seed already has accurate company/sector/industry/country;
+                # quote.name is a fallback if seed is blank.
+                "company": (seed["company"] or quote.get("name") or ticker).strip(),
+                "sector": (seed["sector"] or "Unknown").strip(),
+                "industry": (seed["industry"] or "Unknown").strip(),
+                "country": (seed["country"] or "Unknown").strip(),
                 "market_cap_m": market_cap_m,
                 "price": _safe_float(quote.get("price")) or seed["price"],
                 "change_pct": _safe_float(quote.get("changesPercentage")) or seed["change_pct"],
                 "volume": _safe_float(quote.get("volume")) or seed["volume"],
-                "pe_ratio": _safe_float(profile.get("pe")) or seed["pe_ratio"],
+                "pe_ratio": _safe_float(quote.get("pe")) or seed["pe_ratio"],
             }
         )
 
