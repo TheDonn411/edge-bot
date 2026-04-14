@@ -234,6 +234,8 @@ def _refresh_from_fmp(seed_rows: list[dict], api_key: str) -> tuple[list[dict], 
             time.sleep(QUOTE_GROUP_PAUSE_SECONDS)
 
     print(f"  Fetched live quotes for {len(quote_map)}/{len(to_fetch)} tickers")
+    if to_fetch and not quote_map:
+        raise RuntimeError("No FMP quotes were fetched; refusing to replace deployed data with seed values.")
 
     refreshed: list[dict] = []
     for seed in seed_rows:
@@ -390,6 +392,8 @@ def build_dataset() -> tuple[list[dict], dict]:
             seed, quote_stats = _refresh_from_fmp(seed, api_key)
             source = "financial_modeling_prep"
         except Exception as exc:
+            if os.environ.get("GITHUB_ACTIONS") == "true":
+                raise
             print(f"FMP refresh failed, falling back to seed CSV: {exc}")
 
     dataset = _enrich(seed)
