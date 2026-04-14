@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T14:59:11.692454+00:00",
+  "generated_at": "2026-04-14T15:17:27.296706+00:00",
   "source": "financial_modeling_prep",
   "count": 897,
   "sectors": [
@@ -19,5 +19,16 @@
   "market_cap_band": {
     "min_musd": 2000.0,
     "max_musd": 10000.0
+  },
+  "quote_stats": {
+    "provider": "financial_modeling_prep",
+    "provider_timeframe": "end_of_day_on_free_plan",
+    "daily_call_budget": 250,
+    "reserved_call_buffer": 10,
+    "attempted_live_quotes": 240,
+    "successful_live_quotes": 0,
+    "single_symbol_endpoint": "/api/v3/quote/{symbol}",
+    "quote_group_size": 20,
+    "quote_group_pause_seconds": 1.0
   }
 }
