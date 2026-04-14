@@ -3,6 +3,7 @@ const state = {
   stocks: [],
   sectors: [],
   selectedTicker: null,
+  meta: {},
 };
 
 const elements = {
@@ -94,7 +95,7 @@ function renderSectorOptions() {
 }
 
 function renderTopIdeas() {
-  const liveStocks = state.stocks.filter((stock) => stock.live_quote);
+  const liveStocks = state.stocks.filter((stock) => isRefreshedQuote(stock));
   const top = (liveStocks.length ? liveStocks : state.stocks).slice(0, 5);
   elements.topIdeas.innerHTML = top.map((stock) => `
     <button class="top-idea" data-top-ticker="${stock.ticker}">
@@ -147,10 +148,16 @@ async function selectStock(ticker) {
   renderDetail(stock);
 }
 
+function isRefreshedQuote(stock) {
+  if (stock.live_quote === true) return true;
+  return stock.live_quote == null && state.meta.source === "financial_modeling_prep";
+}
+
 function renderDetail(stock) {
+  const isRefreshed = isRefreshedQuote(stock);
   const quoteTime = stock.quote_updated_at
     ? new Date(stock.quote_updated_at).toLocaleString()
-    : "not live-refreshed";
+    : "not supplied by this dataset version";
   elements.detailTicker.textContent = stock.ticker;
   elements.detailCompany.textContent = stock.company;
   elements.detailMeta.textContent = `${stock.sector} • ${stock.industry} • ${stock.country}`;
@@ -165,7 +172,7 @@ function renderDetail(stock) {
   elements.detailMarketCap.textContent = `${formatNumber(stock.market_cap_b)}B`;
   elements.detailSetupLabel.textContent = stock.setup_label;
   elements.detailWhyNow.textContent = stock.why_now || "This stock stands out for a mix of liquidity, momentum, and valuation context.";
-  elements.detailFreshness.textContent = stock.live_quote
+  elements.detailFreshness.textContent = isRefreshed
     ? `Price, move, volume, market cap, and P/E were refreshed from FMP. Quote timestamp: ${quoteTime}.`
     : `${stock.refresh_note || "This row is showing seed watchlist data, not a fresh market quote."}`;
 
@@ -218,13 +225,14 @@ async function init() {
   ]);
   state.allStocks = await stocksResponse.json();
   const meta = await metaResponse.json();
+  state.meta = meta;
   state.sectors = meta.sectors || [];
   const quoteStats = meta.quote_stats || {};
   elements.refreshStamp.textContent = new Date(meta.generated_at).toLocaleString();
   elements.dataSource.textContent = meta.source || "unknown";
   elements.quoteCoverage.textContent = quoteStats.daily_call_budget
     ? `${quoteStats.successful_live_quotes || 0}/${quoteStats.daily_call_budget}`
-    : "seed only";
+    : meta.source === "financial_modeling_prep" ? "refreshed" : "seed only";
   elements.refreshSchedule.textContent = meta.refresh_schedule || "manual";
   await loadStocks();
 }
