@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Edge Bot Demo Tracker</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <p class="eyebrow">Edge Bot Demo</p>
+          <h1>Medium-Cap Radar</h1>
+          <p class="subtle">Search US medium caps and inspect simple trading signals derived from the watchlist.</p>
+        </div>
+
+        <div class="controls">
+          <label class="field">
+            <span>Search ticker or company</span>
+            <input id="searchInput" type="search" placeholder="AAL, Allegro, Healthcare..." />
+          </label>
+
+          <label class="field">
+            <span>Sector</span>
+            <select id="sectorSelect">
+              <option value="">All sectors</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="summary-bar">
+          <div>
+            <span class="meta-label">Visible names</span>
+            <strong id="visibleCount">0</strong>
+          </div>
+          <div>
+            <span class="meta-label">Last refresh</span>
+            <strong id="refreshStamp">--</strong>
+          </div>
+        </div>
+
+        <div class="summary-bar">
+          <div>
+            <span class="meta-label">Data source</span>
+            <strong id="dataSource">--</strong>
+          </div>
+          <div>
+            <span class="meta-label">Update window</span>
+            <strong id="refreshSchedule">--</strong>
+          </div>
+        </div>
+
+        <section class="ideas-panel">
+          <p class="eyebrow">Top Ideas</p>
+          <div id="topIdeas" class="top-ideas"></div>
+        </section>
+
+        <div id="stockList" class="stock-list"></div>
+      </aside>
+
+      <main class="detail">
+        <section class="hero-card">
+          <div>
+            <p id="detailTicker" class="eyebrow">Select a stock</p>
+            <h2 id="detailCompany">Medium-cap setup detail</h2>
+            <p id="detailMeta" class="subtle">The panel shows simple demo signals based on the attached watchlist file.</p>
+            <div id="interestingBadges" class="badge-row"></div>
+          </div>
+          <div class="score-badge">
+            <span>Composite</span>
+            <strong id="detailComposite">--</strong>
+          </div>
+        </section>
+
+        <section class="metric-grid">
+          <article class="metric-card">
+            <span>Daily move</span>
+            <strong id="detailChange">--</strong>
+          </article>
+          <article class="metric-card">
+            <span>Price</span>
+            <strong id="detailPrice">--</strong>
+          </article>
+          <article class="metric-card">
+            <span>Volume</span>
+            <strong id="detailVolume">--</strong>
+          </article>
+          <article class="metric-card">
+            <span>Market cap</span>
+            <strong id="detailMarketCap">--</strong>
+          </article>
+        </section>
+
+        <section class="why-panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Why This Stock Is Interesting</p>
+              <h3>Fast read</h3>
+            </div>
+          </div>
+          <p id="detailWhyNow" class="why-copy">Pick a stock from the list to see its current angle.</p>
+        </section>
+
+        <section class="signal-panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Signal Breakdown</p>
+              <h3>Trade-readiness gauges</h3>
+            </div>
+            <strong id="detailSetupLabel" class="setup-pill">Monitor</strong>
+          </div>
+          <div id="signalBars" class="signal-bars"></div>
+        </section>
+
+        <section class="notes-panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Why it may matter</p>
+              <h3>Demo thesis notes</h3>
+            </div>
+          </div>
+          <ul id="detailThesis" class="thesis-list"></ul>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>

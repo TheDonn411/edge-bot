@@ -1,0 +1,39 @@
+name: Fetch Congressional Cache
+
+on:
+  schedule:
+    # 18:00 ET = 23:00 UTC (EST winter) / 22:00 UTC (EDT summer)
+    # Run at both times to cover the DST transition
+    - cron: "0 22,23 * * 1-5"   # Mon–Fri
+  workflow_dispatch:             # allow manual trigger
+
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write            # needed to commit the cache file
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch congressional cache
+        run: python scripts/fetch_congressional_cache.py
+
+      - name: Commit updated cache
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/congressional_cache.json
+          # Only commit if the file actually changed
+          git diff --cached --quiet || \
+            git commit -m "chore: update congressional trade cache [skip ci]"
+          git push

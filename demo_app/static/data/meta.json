@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-04-14T14:17:05.692217+00:00",
+  "source": "watchlist_csv_seed",
+  "count": 897,
+  "sectors": [
+    "Basic Materials",
+    "Communication Services",
+    "Consumer Cyclical",
+    "Consumer Defensive",
+    "Energy",
+    "Financial",
+    "Healthcare",
+    "Industrials",
+    "Real Estate",
+    "Technology",
+    "Utilities"
+  ],
+  "refresh_schedule": "Weekdays after US market close",
+  "market_cap_band": {
+    "min_musd": 2000.0,
+    "max_musd": 10000.0
+  }
+}

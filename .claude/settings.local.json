@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(head -5 \"/Users/seandonnelly/Downloads/watchlist \\(1\\).csv\")",
+      "Bash(wc -l \"/Users/seandonnelly/Downloads/watchlist \\(1\\).csv\")"
+    ]
+  }
+}

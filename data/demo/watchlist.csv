@@ -1,0 +1,1075 @@
+"No.","Ticker","Company","Sector","Industry","Country","Market Cap","P/E","Price","Change","Volume"
+1,"AAL","American Airlines Group Inc","Industrials","Airlines","USA",6801.14,62.01,10.30,-2.37%,106227058
+2,"AAOI","Applied Optoelectronics Inc","Technology","Communication Equipment","USA",7280.00,,96.81,-8.83%,14962137
+3,"AAON","AAON Inc","Industrials","Building Products & Equipment","USA",6837.84,64.82,83.90,-3.63%,769146
+4,"AAP","Advance Auto Parts Inc","Consumer Cyclical","Auto Parts","USA",3108.97,71.00,51.73,-1.77%,2175982
+5,"AAUC","Allied Gold Corp","Basic Materials","Gold","Canada",3855.47,,31.08,-1.08%,339893
+6,"AB","AllianceBernstein Holding Lp","Financial","Asset Management","USA",3515.11,12.69,38.09,0.34%,235779
+7,"ABCB","Ameris Bancorp","Financial","Banks - Regional","USA",5103.24,12.53,75.18,-0.17%,466244
+8,"ABG","Asbury Automotive Group Inc","Consumer Cyclical","Auto & Truck Dealerships","USA",3783.41,7.84,196.46,-0.12%,231225
+9,"ABM","ABM Industries Inc","Industrials","Specialty Business Services","USA",2269.32,15.28,38.77,0.26%,886198
+10,"ABVX","Abivax ADR","Healthcare","Biotechnology","France",9144.14,,115.50,-1.27%,701954
+11,"ACA","Arcosa Inc","Industrials","Engineering & Construction","USA",5182.97,24.94,105.68,-1.35%,266213
+12,"ACAD","Acadia Pharmaceuticals Inc","Healthcare","Biotechnology","USA",3513.89,9.01,20.61,-3.10%,1553287
+13,"ACHC","Acadia Healthcare Company Inc","Healthcare","Medical Care Facilities","USA",2168.82,,23.52,-2.59%,2770781
+14,"ACHR","Archer Aviation Inc","Industrials","Aerospace & Defense","USA",4489.57,,6.03,-1.95%,23285528
+15,"ACI","Albertsons Companies Inc","Consumer Defensive","Grocery Stores","USA",8875.28,11.12,17.27,2.37%,4419046
+16,"ACIW","ACI Worldwide Inc","Technology","Software - Infrastructure","USA",4045.40,18.35,39.77,-1.63%,535551
+17,"ACLS","Axcelis Technologies Inc","Technology","Semiconductor Equipment & Materials","USA",2555.50,21.91,83.19,-2.34%,829180
+18,"ACLX","Arcellx Inc","Healthcare","Biotechnology","USA",6689.51,,114.39,0.09%,818326
+19,"ACMR","ACM Research Inc","Technology","Semiconductor Equipment & Materials","USA",3048.45,33.82,46.38,2.45%,923181
+20,"ACT","Enact Holdings Inc","Financial","Insurance - Specialty","USA",5729.90,8.96,40.49,-0.17%,335115
+21,"AD","Array Digital Infrastructure Inc","Communication Services","Telecom Services","USA",4165.63,14.45,48.21,0.37%,177240
+22,"ADC","Agree Realty Corp","Real Estate","REIT - Retail","USA",9506.24,44.84,79.20,-0.58%,1671860
+23,"ADEA","Adeia Inc","Technology","Software - Application","USA",2485.31,23.15,22.79,-0.35%,1270436
+24,"ADMA","Adma Biologics Inc","Healthcare","Biotechnology","USA",3608.11,25.29,15.15,1.07%,2875846
+25,"ADPT","Adaptive Biotechnologies Corp","Healthcare","Biotechnology","USA",2027.94,,13.17,5.78%,3902533
+26,"ADT","ADT Inc","Industrials","Security & Protection Services","USA",5256.98,9.64,6.41,0.47%,9898382
+27,"ADX","Adams Diversified Equity Fund","Financial","Closed-End Fund - Equity","USA",2749.44,5.64,22.44,-0.58%,204328
+28,"AEO","American Eagle Outfitters Inc","Consumer Cyclical","Apparel Retail","USA",2980.02,15.71,17.58,0.11%,4590900
+29,"AGCO","AGCO Corp","Industrials","Farm & Heavy Construction Machinery","USA",8584.54,12.17,118.57,-1.08%,555476
+30,"AGO","Assured Guaranty Ltd","Financial","Insurance - Specialty","Bermuda",3747.83,8.16,83.38,0.25%,375535
+31,"AGX","Argan, Inc","Industrials","Engineering & Construction","USA",6358.32,54.02,458.31,-0.22%,302525
+32,"AHR","American Healthcare REIT Inc","Real Estate","REIT - Healthcare Facilities","USA",9911.81,127.87,52.16,0.06%,3066690
+33,"AIR","AAR Corp","Industrials","Aerospace & Defense","USA",4032.83,39.65,101.91,-1.80%,425398
+34,"AIT","Applied Industrial Technologies Inc","Industrials","Industrial Distribution","USA",9536.37,24.33,255.65,-1.63%,309635
+35,"AKR","Acadia Realty Trust","Real Estate","REIT - Retail","USA",2686.49,214.13,20.15,-1.42%,1041447
+36,"AL","Air Lease Corp","Industrials","Rental & Leasing Services","USA",7228.52,6.93,64.52,-0.15%,4154143
+37,"ALG","Alamo Group Inc","Industrials","Farm & Heavy Construction Machinery","USA",2070.07,19.87,170.78,0.37%,117144
+38,"ALGM","Allegro Microsystems Inc","Technology","Semiconductors","USA",5768.10,,31.13,-0.10%,1156590
+39,"ALH","Alliance Laundry Holdings Inc","Consumer Cyclical","Furnishings, Fixtures & Appliances","USA",3898.65,,19.75,3.62%,1980952
+40,"ALHC","Alignment Healthcare Inc","Healthcare","Healthcare Plans","USA",3471.00,,16.99,-0.76%,1945320
+41,"ALK","Alaska Air Group Inc","Industrials","Airlines","USA",4356.38,43.40,38.00,-1.68%,5715153
+42,"ALKS","Alkermes plc","Healthcare","Drug Manufacturers - Specialty & Generic","Ireland",4626.20,19.38,27.76,0.43%,2896735
+43,"ALM","Almonty Industries Inc","Basic Materials","Other Industrial Metals & Mining","Canada",5170.20,,19.67,-6.58%,6055421
+44,"ALMS","Alumis Inc","Healthcare","Biotechnology","USA",3093.58,,24.81,-0.88%,1292676
+45,"ALRM","Alarm.com Holdings Inc","Technology","Software - Application","USA",2314.19,18.91,46.60,-0.65%,469224
+46,"ALSN","Allison Transmission Holdings Inc","Consumer Cyclical","Auto Parts","USA",9342.13,15.38,112.82,-0.26%,795166
+47,"ALV","Autoliv Inc","Consumer Cyclical","Auto Parts","Sweden",7688.05,10.75,102.91,-0.78%,629846
+48,"AMBA","Ambarella Inc","Technology","Semiconductor Equipment & Materials","USA",2251.11,,52.29,-0.25%,630077
+49,"AMBP","Ardagh Metal Packaging S.A","Consumer Cyclical","Packaging & Containers","Luxembourg",2450.57,,4.10,-0.24%,1291752
+50,"AMG","Affiliated Managers Group Inc","Financial","Asset Management","USA",7256.91,11.87,271.95,0.56%,218470
+51,"AMPX","Amprius Technologies Inc","Industrials","Electrical Equipment & Parts","USA",2459.49,,17.95,-1.86%,8822797
+52,"AMR","Alpha Metallurgical Resources Inc","Basic Materials","Coking Coal","USA",2403.23,,187.86,-0.85%,232470
+53,"AMRX","Amneal Pharmaceuticals Inc","Healthcare","Drug Manufacturers - Specialty & Generic","USA",3722.06,53.43,11.83,-2.35%,2888893
+54,"AMTM","Amentum Holdings Inc","Industrials","Specialty Business Services","USA",6805.79,69.30,27.90,-0.36%,1720240
+55,"AN","Autonation Inc","Consumer Cyclical","Auto & Truck Dealerships","USA",6368.34,10.76,183.47,-0.64%,380271
+56,"ANDE","Andersons Inc","Consumer Defensive","Food Distribution","USA",2396.68,25.30,70.74,-0.70%,439998
+57,"ANDG","Andersen Group Inc","Consumer Cyclical","Personal Services","USA",2534.16,5.16,22.84,-6.89%,556754
+58,"ANF","Abercrombie & Fitch Co","Consumer Cyclical","Apparel Retail","USA",3753.90,7.77,81.86,-2.64%,976640
+59,"AOS","A.O. Smith Corp","Industrials","Specialty Industrial Machinery","USA",9243.30,17.38,66.85,0.41%,1208357
+60,"APAM","Artisan Partners Asset Management Inc","Financial","Asset Management","USA",2858.42,9.04,35.40,0.85%,671921
+61,"APGE","Apogee Therapeutics Inc","Healthcare","Biotechnology","USA",4995.99,,71.90,-2.19%,728707
+62,"APLD","Applied Digital Corporation","Technology","Information Technology Services","USA",7562.91,,27.05,-1.56%,18724713
+63,"APLE","Apple Hospitality REIT Inc","Real Estate","REIT - Hotel & Motel","USA",2754.85,15.84,11.69,-1.52%,2616161
+64,"APLS","Apellis Pharmaceuticals Inc","Healthcare","Biotechnology","USA",2421.10,153.36,18.94,2.99%,1716893
+65,"APPF","Appfolio Inc","Technology","Software - Application","USA",6208.24,44.45,172.50,-2.06%,282262
+66,"AQN","Algonquin Power & Utilities Corp","Utilities","Utilities - Diversified","Canada",5008.61,28.56,6.33,0.64%,4698532
+67,"ARE","Alexandria Real Estate Equities Inc","Real Estate","REIT - Office","USA",8389.47,,48.41,-3.66%,2277571
+68,"ARIS","Aris Mining Corp","Basic Materials","Gold","Canada",3821.91,49.22,18.58,-3.53%,1875950
+69,"ARLP","Alliance Resource Partners, LP","Energy","Thermal Coal","USA",3509.81,11.37,27.28,-0.66%,162976
+70,"AROC","Archrock Inc","Energy","Oil & Gas Equipment & Services","USA",6054.88,18.94,34.62,-1.28%,1485628
+71,"ARQT","Arcutis Biotherapeutics Inc","Healthcare","Biotechnology","USA",2821.76,,22.75,-0.70%,890479
+72,"ARR","ARMOUR Residential REIT Inc","Real Estate","REIT - Mortgage","USA",2039.09,6.24,17.09,-1.84%,3429972
+73,"ARW","Arrow Electronics Inc","Technology","Electronics & Computer Distribution","USA",7174.54,12.83,140.44,-0.06%,407169
+74,"ARWR","Arrowhead Pharmaceuticals Inc","Healthcare","Biotechnology","USA",7708.77,35.79,55.05,0.07%,4477182
+75,"ARX","Accelerant Holdings","Financial","Insurance Brokers","Cayman Islands",2375.69,,10.71,-0.56%,826475
+76,"ASB","Associated Banc-Corp","Financial","Banks - Regional","USA",4063.07,8.85,24.48,-0.89%,2091805
+77,"ASH","Ashland Inc","Basic Materials","Specialty Chemicals","USA",2286.75,,49.97,-1.98%,729063
+78,"ASO","Academy Sports and Outdoors Inc","Consumer Cyclical","Specialty Retail","USA",3756.82,10.30,56.34,1.51%,1292838
+79,"ATAT","Atour Lifestyle Holdings Ltd ADR","Consumer Cyclical","Lodging","China",4004.32,24.15,35.24,1.73%,860500
+80,"ATHM","Autohome Inc ADR","Communication Services","Internet Content & Information","China",2233.78,11.58,18.86,0.59%,812515
+81,"ATMU","Atmus Filtration Technologies Inc","Consumer Cyclical","Auto Parts","USA",4610.94,22.59,56.57,-0.72%,612808
+82,"ATR","Aptargroup Inc","Healthcare","Medical Instruments & Supplies","USA",8282.45,21.87,128.65,-0.16%,660585
+83,"ATRO","Astronics Corp","Industrials","Aerospace & Defense","USA",2287.39,88.36,63.93,-5.78%,1519912
+84,"ATS","ATS Corporation","Industrials","Specialty Industrial Machinery","Canada",2702.53,183.86,27.56,-2.99%,210026
+85,"AUB","Atlantic Union Bankshares Corp","Financial","Banks - Regional","USA",4891.32,16.86,34.30,-0.35%,1040219
+86,"AUGO","Aura Minerals Inc","Basic Materials","Gold","USA",6297.25,,75.39,-5.90%,551916
+87,"AUR","Aurora Innovation Inc","Technology","Information Technology Services","USA",7951.16,,4.08,-4.00%,34190652
+88,"AVA","Avista Corp","Utilities","Utilities - Diversified","USA",3279.36,16.72,39.87,1.48%,591212
+89,"AVNT","Avient Corp","Basic Materials","Specialty Chemicals","USA",3140.90,38.37,34.28,-0.72%,766156
+90,"AVPT","AvePoint Inc","Technology","Software - Infrastructure","USA",2247.31,69.26,10.43,-0.29%,1272637
+91,"AVT","Avnet Inc","Technology","Electronics & Computer Distribution","USA",4889.68,24.46,59.73,-0.85%,874787
+92,"AVTR","Avantor Inc","Healthcare","Medical Instruments & Supplies","USA",5408.70,,7.93,0.38%,10373513
+93,"AWI","Armstrong World Industries Inc","Industrials","Building Products & Equipment","USA",7166.14,23.66,167.39,1.46%,456056
+94,"AWR","American States Water Co","Utilities","Utilities - Regulated Water","USA",2955.03,22.47,75.62,1.59%,212633
+95,"AX","Axos Financial Inc","Financial","Banks - Regional","USA",4799.51,10.73,84.73,0.08%,361417
+96,"AXS","Axis Capital Holdings Ltd","Financial","Insurance - Specialty","Bermuda",7463.16,8.14,100.90,0.29%,437402
+97,"AXSM","Axsome Therapeutics Inc","Healthcare","Biotechnology","USA",7984.01,,156.08,1.27%,862767
+98,"AXTA","Axalta Coating Systems Ltd","Basic Materials","Specialty Chemicals","USA",5886.99,15.86,27.59,-0.97%,2162438
+99,"AXTI","AXT Inc","Technology","Semiconductor Equipment & Materials","USA",2700.70,,48.86,4.56%,10703912
+100,"AYI","Acuity Inc","Industrials","Electrical Equipment & Parts","USA",7997.73,20.07,260.83,1.18%,368858
+101,"AZZ","AZZ Inc","Industrials","Specialty Business Services","USA",3696.13,11.64,123.80,1.78%,245234
+102,"BAH","Booz Allen Hamilton Holding Corp","Industrials","Consulting Services","USA",9438.92,11.63,78.27,1.50%,1532259
+103,"BANC","Banc of California Inc","Financial","Banks - Regional","USA",2608.58,14.34,16.78,-0.12%,2798892
+104,"BANF","Bancfirst Corp","Financial","Banks - Regional","USA",3557.79,14.91,106.06,-0.73%,116219
+105,"BANR","Banner Corp","Financial","Banks - Regional","USA",2013.82,10.47,59.06,-0.47%,304756
+106,"BATRK","Atlanta Braves Holdings Inc","Communication Services","Entertainment","USA",2758.60,,43.09,0.37%,324261
+107,"BAX","Baxter International Inc","Healthcare","Medical Instruments & Supplies","USA",8952.13,,17.40,-3.39%,8897392
+108,"BBAR","BBVA Argentina ADR","Financial","Banks - Regional","Argentina",2716.39,14.58,13.30,-6.73%,712075
+109,"BBT","Beacon Financial Corp","Financial","Banks - Regional","USA",2402.17,22.38,28.66,-0.35%,789431
+110,"BBWI","Bath & Body Works Inc","Consumer Cyclical","Specialty Retail","USA",3922.12,6.19,19.50,3.83%,7681588
+111,"BC","Brunswick Corp","Consumer Cyclical","Recreational Vehicles","USA",4468.88,,68.91,-0.12%,779447
+112,"BCC","Boise Cascade Co","Basic Materials","Lumber & Wood Production","USA",2500.54,19.93,70.00,0.55%,631614
+113,"BCO","Brink's Co","Industrials","Security & Protection Services","USA",4405.01,22.80,107.07,-0.21%,413041
+114,"BCPC","Balchem Corp","Basic Materials","Specialty Chemicals","USA",5413.25,35.58,169.03,-0.79%,150329
+115,"BCRX","Biocryst Pharmaceuticals Inc","Healthcare","Drug Manufacturers - Specialty & Generic","USA",2061.58,6.83,8.22,-1.91%,5516666
+116,"BDC","Belden Inc","Technology","Communication Equipment","USA",4437.92,19.37,114.53,-1.84%,271336
+117,"BEAM","Beam Therapeutics Inc","Healthcare","Biotechnology","USA",2562.70,,25.16,-1.68%,1664475
+118,"BELFB","Bel Fuse Inc","Technology","Electronic Components","USA",2464.99,41.89,197.65,1.27%,143638
+119,"BEP","Brookfield Renewable Partners LP","Utilities","Utilities - Renewable","Bermuda",9231.72,,30.17,-2.11%,953535
+120,"BEPC","Brookfield Renewable Corp","Utilities","Utilities - Renewable","USA",7070.73,,39.22,-3.49%,2265967
+121,"BETA","BETA Technologies Inc","Industrials","Aerospace & Defense","USA",3825.35,,16.65,-2.69%,1861506
+122,"BFAM","Bright Horizons Family Solutions, Inc","Consumer Cyclical","Personal Services","USA",4201.31,22.70,76.23,-2.27%,1022463
+123,"BFH","Bread Financial Holdings Inc","Financial","Credit Services","USA",3084.02,6.60,71.53,-0.18%,581847
+124,"BGC","BGC Group Inc","Financial","Capital Markets","USA",4538.69,31.10,9.57,3.57%,4989441
+125,"BHF","Brighthouse Financial Inc","Financial","Insurance - Life","USA",3444.20,10.37,60.23,-0.25%,492871
+126,"BILI","Bilibili Inc ADR","Communication Services","Internet Content & Information","China",8443.01,68.31,25.20,1.20%,1454442
+127,"BILL","BILL Holdings Inc","Technology","Software - Application","USA",3937.64,,39.79,0.35%,1564039
+128,"BIO","Bio-Rad Laboratories Inc","Healthcare","Medical Devices","USA",7096.90,9.41,262.80,0.37%,161773
+129,"BIPC","Brookfield Infrastructure Corp","Utilities","Utilities - Regulated Gas","USA",6183.05,,46.82,-0.17%,674105
+130,"BIRK","Birkenstock Holding Plc","Consumer Cyclical","Footwear & Accessories","United Kingdom",6883.60,16.34,37.43,3.60%,2038046
+131,"BKD","Brookdale Senior Living Inc","Healthcare","Medical Care Facilities","USA",3314.83,,13.94,0.29%,3223820
+132,"BKE","Buckle, Inc","Consumer Cyclical","Apparel Retail","USA",2572.15,12.16,50.28,-0.75%,669318
+133,"BKH","Black Hills Corporation","Utilities","Utilities - Regulated Gas","USA",5468.91,18.19,72.46,2.56%,1298644
+134,"BKU","BankUnited Inc","Financial","Banks - Regional","USA",3151.00,12.12,42.79,-0.90%,878060
+135,"BKV","BKV Corp","Energy","Oil & Gas E&P","USA",2940.78,14.73,28.75,2.50%,749025
+136,"BL","BlackLine Inc","Technology","Software - Application","USA",2195.92,95.45,36.88,3.77%,977039
+137,"BLCO","Bausch + Lomb Corp","Healthcare","Medical Instruments & Supplies","Canada",5739.95,,16.20,-2.29%,424521
+138,"BLDR","Builders Firstsource Inc","Industrials","Building Products & Equipment","USA",9743.20,22.62,88.09,1.72%,2464990
+139,"BLKB","Blackbaud Inc","Technology","Software - Application","USA",2022.45,18.49,44.03,-1.41%,323304
+140,"BLLN","Billiontoone Inc","Healthcare","Diagnostics & Research","USA",3163.08,,69.11,7.93%,230804
+141,"BLSH","Bullish","Technology","Software - Infrastructure","Cayman Islands",5518.04,,36.62,1.05%,1204545
+142,"BLTE","Belite Bio Inc ADR","Healthcare","Biotechnology","USA",6456.09,,164.11,-3.21%,109758
+143,"BMA","Banco Macro S.A. ADR","Financial","Banks - Regional","Argentina",4186.32,18.78,66.64,-5.02%,393411
+144,"BMI","Badger Meter Inc","Technology","Scientific & Technical Instruments","USA",4277.73,30.60,146.59,1.59%,485990
+145,"BMNR","BitMine Immersion Technologies Inc","Financial","Capital Markets","USA",9342.87,,20.54,-0.05%,80720461
+146,"BNL","Broadstone Net Lease Inc","Real Estate","REIT - Diversified","USA",3696.39,38.92,19.31,0.31%,2345127
+147,"BOBS","Bob's Discount Furniture Inc","Consumer Cyclical","Specialty Retail","USA",2007.70,,15.40,-6.67%,1359599
+148,"BOH","Bank of Hawaii Corp","Financial","Banks - Regional","USA",2898.55,15.80,73.09,-0.89%,526714
+149,"BOKF","BOK Financial Corp","Financial","Banks - Regional","USA",7583.45,13.60,124.94,-0.43%,321858
+150,"BOOT","Boot Barn Holdings Inc","Consumer Cyclical","Apparel Retail","USA",4992.30,23.04,164.11,-1.94%,533476
+151,"BOX","Box Inc","Technology","Software - Infrastructure","USA",3446.01,42.12,24.89,0.77%,2278278
+152,"BPOP","Popular Inc","Financial","Banks - Regional","USA",8488.62,10.58,130.38,-0.37%,567716
+153,"BPRE","Bluerock Private Real Estate Fund","Financial","Closed-End Fund - Debt","USA",2443.20,,17.08,1.36%,661714
+154,"BRC","Brady Corp","Industrials","Security & Protection Services","USA",4020.05,19.95,85.12,-0.29%,115467
+155,"BRKR","Bruker Corp","Healthcare","Medical Devices","USA",5137.40,,33.75,-3.71%,4429826
+156,"BROS","Dutch Bros Inc","Consumer Cyclical","Restaurants","USA",7782.99,74.59,47.30,-1.81%,4405961
+157,"BRSL","Brightstar Lottery PLC","Consumer Cyclical","Gambling","United Kingdom",2400.04,34.11,12.67,0.24%,1201636
+158,"BRX","Brixmor Property Group Inc","Real Estate","REIT - Retail","USA",9090.39,23.67,29.65,-0.13%,2465225
+159,"BRZE","Braze Inc","Technology","Software - Application","USA",2106.28,,18.77,1.02%,2238438
+160,"BSM","Black Stone Minerals L.P","Energy","Oil & Gas E&P","USA",3267.82,12.08,15.39,0.59%,271433
+161,"BTE","Baytex Energy Corp","Energy","Oil & Gas E&P","Canada",2990.00,20.31,4.04,0.50%,20531827
+162,"BTG","B2gold Corp","Basic Materials","Gold","Canada",6484.64,18.18,4.85,-4.90%,32773984
+163,"BTSG","BrightSpring Health Services Inc","Healthcare","Health Information Services","USA",7414.87,43.69,38.31,-0.85%,2784159
+164,"BTU","Peabody Energy Corp","Energy","Thermal Coal","USA",4217.35,,34.65,-3.56%,2052888
+165,"BULL","Webull Corp","Technology","Software - Application","USA",2758.59,,5.27,-0.38%,12774245
+166,"BUSE","First Busey Corp","Financial","Banks - Regional","USA",2128.09,19.21,24.68,-0.76%,420295
+167,"BVN","Compania de Minas Buenaventura S.A. ADR","Basic Materials","Other Precious Metals & Mining","Peru",8946.17,11.39,35.26,-4.11%,2917007
+168,"BWIN","The Baldwin Insurance Group Inc","Financial","Insurance Brokers","USA",3008.58,,21.06,1.20%,1714403
+169,"BWLP","BW LPG Limited","Industrials","Marine Shipping","Singapore",2056.71,8.52,13.59,-7.49%,445932
+170,"BXMT","Blackstone Mortgage Trust Inc","Real Estate","REIT - Mortgage","USA",3131.79,28.88,18.56,-0.16%,1236852
+171,"BXP","BXP Inc","Real Estate","REIT - Office","USA",9061.14,29.91,52.01,-1.37%,1856180
+172,"BXSL","Blackstone Secured Lending Fund","Financial","Asset Management","USA",5493.42,9.61,23.65,-0.25%,3191666
+173,"BYD","Boyd Gaming Corp","Consumer Cyclical","Resorts & Casinos","USA",6163.18,3.59,81.64,0.42%,1002840
+174,"BZ","Kanzhun Ltd ADR","Communication Services","Internet Content & Information","China",5674.23,18.79,14.17,0.28%,3183133
+175,"CAAP","Corporacion America Airports S.A","Industrials","Airports & Air Services","Luxembourg",3977.69,21.58,24.39,-1.69%,302788
+176,"CACC","Credit Acceptance Corp","Financial","Credit Services","USA",4812.70,12.27,447.79,-9.35%,305379
+177,"CAE","Cae Inc","Industrials","Aerospace & Defense","Canada",8807.94,32.89,27.37,1.11%,661188
+178,"CAG","Conagra Brands Inc","Consumer Defensive","Packaged Foods","USA",7850.04,,16.41,1.48%,20226698
+179,"CAI","Caris Life Sciences Inc","Healthcare","Biotechnology","USA",5128.82,,18.15,2.60%,1697514
+180,"CAKE","Cheesecake Factory Inc","Consumer Cyclical","Restaurants","USA",2870.39,18.82,57.57,1.71%,1284137
+181,"CALM","Cal-Maine Foods, Inc","Consumer Defensive","Farm Products","USA",4186.41,3.71,87.85,-1.45%,569495
+182,"CALX","Calix Inc","Technology","Software - Infrastructure","USA",3317.78,201.31,50.57,1.61%,441558
+183,"CALY","Callaway Golf Co","Consumer Cyclical","Leisure","USA",2463.18,,13.38,1.75%,2523123
+184,"CAMT","Camtek Ltd","Technology","Semiconductor Equipment & Materials","Israel",6827.48,160.71,148.98,-2.34%,434982
+185,"CAR","Avis Budget Group Inc","Industrials","Rental & Leasing Services","USA",3550.90,,100.71,1.16%,499614
+186,"CARG","CarGurus Inc","Consumer Cyclical","Auto & Truck Dealerships","USA",2937.54,19.81,30.86,-0.32%,813551
+187,"CART","Maplebear Inc","Consumer Cyclical","Internet Retail","USA",9198.71,24.04,38.23,1.38%,3261792
+188,"CATY","Cathay General Bancorp","Financial","Banks - Regional","USA",3172.45,10.43,47.38,-0.90%,644153
+189,"CAVA","Cava Group Inc","Consumer Cyclical","Restaurants","USA",9542.98,152.22,82.00,2.05%,2319054
+190,"CBC","Central Bancompany Inc","Financial","Banks - Regional","USA",5774.57,13.66,23.95,-0.62%,657745
+191,"CBSH","Commerce Bancshares, Inc","Financial","Banks - Regional","USA",6998.80,11.80,47.65,0.34%,1131919
+192,"CBT","Cabot Corp","Basic Materials","Specialty Chemicals","USA",3628.88,12.20,69.49,0.87%,475502
+193,"CBU","Community Financial System Inc","Financial","Banks - Regional","USA",3027.41,14.48,57.39,0.24%,287309
+194,"CC","Chemours Company","Basic Materials","Specialty Chemicals","USA",2637.00,,17.58,-0.68%,4146321
+195,"CCC","CCC Intelligent Solutions Holdings Inc","Technology","Software - Application","USA",3654.90,,6.02,3.79%,16036695
+196,"CCU","Compania Cervecerias Unidas S.A. ADR","Consumer Defensive","Beverages - Brewers","Chile",2150.49,17.45,11.64,0.00%,178413
+197,"CDLR","Cadeler AS ADR","Industrials","Engineering & Construction","Denmark",2169.47,7.23,24.76,3.30%,104317
+198,"CDP","COPT Defense Properties","Real Estate","REIT - Office","USA",7154.61,23.63,31.67,-0.09%,996784
+199,"CE","Celanese Corp","Basic Materials","Chemicals","USA",6326.69,,57.74,-3.12%,3141581
+200,"CEF","Sprott Physical Gold and Silver Trust","Financial","Asset Management","Canada",9912.49,,51.18,-3.07%,941785
+201,"CELC","Celcuity Inc","Healthcare","Biotechnology","USA",5285.10,,114.22,3.11%,434735
+202,"CENTA","Central Garden & Pet Co","Consumer Defensive","Packaged Foods","USA",2053.04,13.12,32.14,0.97%,284997
+203,"CENX","Century Aluminum Co","Basic Materials","Aluminum","USA",5416.85,138.38,54.73,-5.16%,2295550
+204,"CEPU","Central Puerto ADR","Utilities","Utilities - Regulated Electric","Argentina",2272.65,8.30,15.15,-1.88%,408923
+205,"CFR","Cullen Frost Bankers Inc","Financial","Banks - Regional","USA",8350.85,13.33,132.13,-0.60%,428825
+206,"CGAU","Centerra Gold Inc","Basic Materials","Gold","Canada",3529.59,6.20,17.64,-4.85%,2238849
+207,"CGNX","Cognex Corp","Technology","Scientific & Technical Instruments","USA",7950.67,70.91,47.98,-1.62%,2773702
+208,"CGON","Cg Oncology Inc","Healthcare","Biotechnology","USA",5428.34,,64.29,2.10%,1880059
+209,"CHDN","Churchill Downs, Inc","Consumer Cyclical","Gambling","USA",6018.98,16.45,86.36,2.71%,763241
+210,"CHE","Chemed Corp","Healthcare","Medical Care Facilities","USA",5531.80,21.88,401.87,0.58%,297642
+211,"CHEF","Chefs' Warehouse Inc","Consumer Defensive","Food Distribution","USA",2628.85,38.47,64.60,0.98%,257831
+212,"CHH","Choice Hotels International, Inc","Consumer Cyclical","Lodging","USA",4388.43,12.05,95.46,-0.34%,535201
+213,"CHRD","Chord Energy Corp","Energy","Oil & Gas E&P","USA",7017.21,194.35,123.45,0.38%,986325
+214,"CHYM","Chime Financial Inc","Technology","Software - Application","USA",7720.05,,20.61,-4.67%,5358404
+215,"CIB","Grupo Cibest S.A. ADR","Financial","Banks - Regional","Colombia",7404.56,16.85,65.83,-0.51%,505448
+216,"CIFR","Cipher Digital Inc","Technology","Information Technology Services","USA",5704.08,,14.08,2.70%,37028527
+217,"CIG","Cia Energetica DE Minas Gerais - Cemig ADR","Utilities","Utilities - Diversified","Brazil",4188.98,8.94,2.20,-0.90%,10556754
+218,"CIGI","Colliers International Group Inc","Real Estate","Real Estate Services","Canada",5517.27,53.76,107.97,1.77%,181299
+219,"CLBT","Cellebrite DI Ltd","Technology","Software - Infrastructure","Israel",3457.95,46.37,14.44,-0.62%,958912
+220,"CLF","Cleveland-Cliffs Inc","Basic Materials","Steel","USA",4825.50,,8.46,-5.16%,22332337
+221,"CLM","Cornerstone Strategic Investment Fund Inc","Financial","Closed-End Fund - Equity","USA",2231.44,7.88,7.49,0.40%,6517592
+222,"CLMT","Calumet Inc","Basic Materials","Specialty Chemicals","USA",2480.94,,28.59,-0.52%,829981
+223,"CLSK","Cleanspark Inc","Financial","Capital Markets","USA",2496.15,,9.76,2.20%,23592086
+224,"CMBT","CMB.Tech NV","Energy","Oil & Gas Midstream","Belgium",3455.92,14.36,11.91,-2.22%,1424798
+225,"CMC","Commercial Metals Co","Basic Materials","Steel","USA",6772.01,15.74,61.06,-1.17%,1408607
+226,"CNK","Cinemark Holdings Inc","Communication Services","Entertainment","USA",2978.27,26.38,25.78,0.98%,1905563
+227,"CNM","Core & Main Inc","Industrials","Industrial Distribution","USA",9396.32,21.10,48.06,0.90%,2154035
+228,"CNO","CNO Financial Group Inc","Financial","Insurance - Life","USA",3758.85,17.82,39.87,0.25%,620338
+229,"CNR","Core Natural Resources Inc","Energy","Thermal Coal","USA",5041.37,,98.89,-1.15%,1157842
+230,"CNS","Cohen & Steers Inc","Financial","Asset Management","USA",3212.40,21.02,62.51,0.11%,430887
+231,"CNTA","Centessa Pharmaceuticals plc ADR","Healthcare","Biotechnology","United Kingdom",3539.28,,26.33,-3.27%,1362237
+232,"CNX","CNX Resources Corp","Energy","Oil & Gas E&P","USA",5999.39,11.47,42.14,2.51%,2214828
+233,"COCO","Vita Coco Company Inc","Consumer Defensive","Beverages - Non-Alcoholic","USA",3330.74,48.98,58.35,0.62%,789002
+234,"COGT","Cogent Biosciences Inc","Healthcare","Biotechnology","USA",5518.50,,34.00,-3.76%,1647220
+235,"COLB","Columbia Banking System, Inc","Financial","Banks - Regional","USA",7752.29,11.60,26.23,-0.72%,3081571
+236,"COLD","Americold Realty Trust Inc","Real Estate","REIT - Industrial","USA",3170.71,,11.13,-1.33%,3314749
+237,"COLM","Columbia Sportswear Co","Consumer Cyclical","Apparel Manufacturing","USA",2892.42,16.97,55.25,0.55%,512792
+238,"COMP","Compass Inc","Real Estate","Real Estate Services","USA",6229.85,,8.28,2.35%,10678373
+239,"CON","Concentra Group Holdings Parent Inc","Healthcare","Medical Care Facilities","USA",2877.56,17.38,22.37,2.01%,783702
+240,"CORT","Corcept Therapeutics Inc","Healthcare","Biotechnology","USA",3419.93,39.30,32.15,-0.74%,1019057
+241,"CORZ","Core Scientific Inc","Technology","Software - Infrastructure","USA",5199.84,14.35,16.49,1.54%,10208227
+242,"CPA","Copa Holdings S.A","Industrials","Airlines","Panama",4540.87,6.77,110.38,-1.83%,782065
+243,"CPB","Campbells Co","Consumer Defensive","Packaged Foods","USA",6472.76,11.80,21.71,0.28%,9648326
+244,"CPK","Chesapeake Utilities Corp","Utilities","Utilities - Regulated Gas","USA",3127.29,21.84,130.65,1.11%,125195
+245,"CPRI","Capri Holdings Ltd","Consumer Cyclical","Luxury Goods","United Kingdom",2214.03,,18.58,1.59%,4243949
+246,"CPRX","Catalyst Pharmaceuticals Inc","Healthcare","Biotechnology","USA",2836.94,13.79,23.23,-0.68%,1024009
+247,"CR","Crane Co","Industrials","Specialty Industrial Machinery","USA",9874.99,30.90,171.22,-4.54%,634407
+248,"CRC","California Resources Corporation","Energy","Oil & Gas E&P","USA",5446.09,15.05,61.47,-1.05%,1189955
+249,"CRGY","Crescent Energy Co","Energy","Oil & Gas E&P","USA",3931.52,22.89,11.99,2.13%,5305752
+250,"CRK","Comstock Resources, Inc","Energy","Oil & Gas E&P","USA",6118.59,15.62,20.81,0.14%,1908967
+251,"CRL","Charles River Laboratories International Inc","Healthcare","Diagnostics & Research","USA",7652.95,,155.46,1.83%,987596
+252,"CRNX","Crinetics Pharmaceuticals Inc","Healthcare","Biotechnology","USA",3925.40,,37.49,2.68%,956535
+253,"CROX","Crocs Inc","Consumer Cyclical","Footwear & Accessories","USA",3915.71,,77.95,-2.11%,1221156
+254,"CRSP","CRISPR Therapeutics AG","Healthcare","Biotechnology","Switzerland",4679.28,,48.75,-0.25%,1972820
+255,"CRUS","Cirrus Logic, Inc","Technology","Semiconductors","USA",6820.20,17.61,133.71,0.84%,419558
+256,"CRVL","Corvel Corp","Financial","Insurance Brokers","USA",2692.15,25.79,52.63,2.21%,286678
+257,"CSAN","Cosan S.A ADR","Energy","Oil & Gas Refining & Marketing","Brazil",4048.53,,4.09,-4.88%,895895
+258,"CSGS","CSG Systems International Inc","Technology","Software - Infrastructure","USA",2277.59,40.27,79.91,0.15%,376462
+259,"CSQ","Calamos Strategic Total Return Fund","Financial","Closed-End Fund - Debt","USA",2848.16,3.94,17.76,-1.17%,328940
+260,"CSTM","Constellium SE","Basic Materials","Aluminum","France",3324.07,12.72,24.61,0.08%,1739913
+261,"CSW","CSW Industrials Inc","Industrials","Specialty Industrial Machinery","USA",4225.27,34.04,256.54,-0.47%,111827
+262,"CTRE","CareTrust REIT Inc","Real Estate","REIT - Healthcare Facilities","USA",8936.19,25.76,40.03,-0.15%,1691933
+263,"CTRI","Centuri Holdings Inc","Utilities","Utilities - Regulated Gas","USA",2953.92,127.23,29.30,1.70%,821166
+264,"CUBE","CubeSmart","Real Estate","REIT - Industrial","USA",8815.95,26.54,38.65,1.15%,1735119
+265,"CUBI","Customers Bancorp Inc","Financial","Banks - Regional","USA",2214.21,10.44,64.72,-2.68%,298541
+266,"CUK","Carnival plc ADR","Consumer Cyclical","Travel Services","United Kingdom",3486.90,11.91,23.86,-0.21%,2684659
+267,"CURB","Curbline Properties Corp","Real Estate","REIT - Retail","USA",2794.36,71.06,26.52,-0.71%,806304
+268,"CUZ","Cousins Properties Inc","Real Estate","REIT - Office","USA",3826.63,94.92,22.78,0.00%,1172317
+269,"CVBF","CVB Financial Corp","Financial","Banks - Regional","USA",2551.69,12.41,18.79,-0.37%,1021816
+270,"CVCO","Cavco Industries Inc","Consumer Cyclical","Residential Construction","USA",3854.12,21.56,496.59,-0.41%,109213
+271,"CVI","CVR Energy Inc","Energy","Oil & Gas Refining & Marketing","USA",2872.16,106.37,28.57,-0.66%,789331
+272,"CVLT","Commvault Systems Inc","Technology","Software - Application","USA",3472.22,40.92,78.96,-2.34%,1128715
+273,"CVSA","Covista Inc","Consumer Defensive","Education & Training Services","USA",3627.19,15.48,105.11,1.22%,246712
+274,"CWAN","Clearwater Analytics Holdings Inc","Technology","Software - Application","USA",6845.95,,23.17,0.09%,4146752
+275,"CWEN","Clearway Energy Inc","Utilities","Utilities - Renewable","USA",7833.80,26.48,38.21,0.50%,815113
+276,"CWEN-A","Clearway Energy Inc","Utilities","Utilities - Renewable","USA",7833.80,26.33,37.99,0.53%,259517
+277,"CWK","Cushman & Wakefield Ltd","Real Estate","Real Estate Services","Bermuda",2814.32,32.30,12.14,2.10%,1520209
+278,"CWST","Casella Waste Systems, Inc","Industrials","Waste Management","USA",5595.00,713.28,88.09,-2.86%,929528
+279,"CWT","California Water Service Group","Utilities","Utilities - Regulated Water","USA",2695.86,21.03,45.20,1.87%,273678
+280,"CXT","Crane NXT Co","Industrials","Specialty Industrial Machinery","USA",2428.14,16.90,42.27,-1.35%,443045
+281,"CYTK","Cytokinetics Inc","Healthcare","Biotechnology","USA",7397.16,,60.06,0.10%,1933991
+282,"CZR","Caesars Entertainment Inc","Consumer Cyclical","Resorts & Casinos","USA",5710.80,,28.06,-1.23%,4778764
+283,"DAN","Dana Inc","Consumer Cyclical","Auto Parts","USA",3409.22,57.36,31.38,-1.60%,1394067
+284,"DAR","Darling Ingredients Inc","Consumer Defensive","Packaged Foods","USA",8691.47,140.37,54.80,-2.72%,3096999
+285,"DAVE","Dave Inc","Technology","Software - Application","USA",2874.91,15.71,212.02,-0.39%,522157
+286,"DAWN","Day One Biopharmaceuticals Inc","Healthcare","Biotechnology","USA",2201.27,,21.31,0.19%,5101598
+287,"DBD","Diebold Nixdorf Inc","Technology","Software - Application","USA",2549.34,28.07,72.48,-0.97%,188718
+288,"DBRG","DigitalBridge Group Inc","Financial","Asset Management","USA",2902.01,34.02,15.37,0.00%,2124370
+289,"DBX","Dropbox Inc","Technology","Software - Infrastructure","USA",5997.16,13.87,25.75,-0.62%,2538694
+290,"DCI","Donaldson Co. Inc","Industrials","Specialty Industrial Machinery","USA",9936.86,26.82,85.80,-1.36%,557600
+291,"DDS","Dillard's Inc","Consumer Cyclical","Department Stores","USA",9097.05,16.00,582.66,1.55%,63674
+292,"DHT","DHT Holdings Inc","Energy","Oil & Gas Midstream","Bermuda",2705.40,12.83,16.85,0.06%,5190813
+293,"DIOD","Diodes, Inc","Technology","Semiconductors","USA",2930.65,44.84,63.88,3.62%,480462
+294,"DJT","Trump Media & Technology Group Corp","Communication Services","Internet Content & Information","USA",2711.97,,9.80,-1.41%,4120384
+295,"DK","Delek US Holdings Inc","Energy","Oil & Gas Refining & Marketing","USA",2495.21,,41.72,-0.57%,889670
+296,"DLB","Dolby Laboratories Inc","Industrials","Specialty Business Services","USA",5780.16,24.40,60.50,-3.83%,721685
+297,"DLO","DLocal Limited","Technology","Software - Infrastructure","USA",3342.21,19.31,11.34,-1.82%,720474
+298,"DNLI","Denali Therapeutics Inc","Healthcare","Biotechnology","USA",3262.23,,20.57,-0.63%,1290238
+299,"DNN","Denison Mines Corp","Energy","Uranium","Canada",3449.31,,3.82,-4.74%,59416076
+300,"DNOW","Dnow Inc","Industrials","Industrial Distribution","USA",2122.48,,11.39,0.89%,3180803
+301,"DNP","DNP Select Income Fund Inc","Financial","Closed-End Fund - Equity","USA",3888.79,8.90,10.32,0.58%,437070
+302,"DNTH","Dianthus Therapeutics Inc","Healthcare","Biotechnology","USA",3462.52,,77.86,-3.06%,2300961
+303,"DOCN","DigitalOcean Holdings Inc","Technology","Software - Infrastructure","USA",6313.69,27.31,68.63,3.64%,3010495
+304,"DOCS","Doximity Inc","Healthcare","Health Information Services","USA",4501.37,20.46,24.37,0.37%,2226750
+305,"DOCU","DocuSign Inc","Technology","Software - Application","USA",9422.83,32.93,47.05,1.23%,3414221
+306,"DOO","BRP Inc","Consumer Cyclical","Recreational Vehicles","Canada",4676.06,271.16,63.75,-0.39%,134536
+307,"DORM","Dorman Products Inc","Consumer Cyclical","Auto Parts","USA",3103.14,15.49,102.81,0.56%,284498
+308,"DOX","Amdocs Ltd","Technology","Software - Infrastructure","USA",7161.37,12.89,66.34,-0.87%,611682
+309,"DRD","DRDGold Ltd. ADR","Basic Materials","Gold","South Africa",2610.31,14.55,30.17,-7.14%,354144
+310,"DSGX","Descartes Systems Group Inc","Technology","Software - Application","Canada",6230.84,38.75,72.46,0.67%,613209
+311,"DUOL","Duolingo Inc","Technology","Software - Application","USA",4619.44,11.68,98.39,3.66%,2395774
+312,"DX","Dynex Capital, Inc","Real Estate","REIT - Mortgage","USA",2637.90,6.40,13.06,-2.03%,5779281
+313,"DXC","DXC Technology Co","Technology","Information Technology Services","USA",2008.26,5.09,11.83,-0.92%,2227187
+314,"DXPE","DXP Enterprises, Inc","Industrials","Industrial Distribution","USA",2025.03,24.29,130.46,-0.37%,94879
+315,"DYN","Dyne Therapeutics Inc","Healthcare","Biotechnology","USA",2957.29,,17.92,-0.78%,2445234
+316,"EAT","Brinker International, Inc","Consumer Cyclical","Restaurants","USA",6272.12,14.54,144.02,3.85%,1349787
+317,"EBC","Eastern Bankshares Inc","Financial","Banks - Regional","USA",4408.84,46.12,18.79,-0.37%,1003779
+318,"ECG","Everus Construction Group","Industrials","Engineering & Construction","USA",5743.36,28.53,112.60,-0.29%,449137
+319,"EDU","New Oriental Education & Technology Group Inc. ADR","Consumer Defensive","Education & Training Services","China",8809.36,22.69,53.87,0.73%,372542
+320,"EE","Excelerate Energy Inc","Energy","Oil & Gas Midstream","USA",3833.79,25.64,33.61,-1.29%,328646
+321,"EEFT","Euronet Worldwide Inc","Technology","Software - Infrastructure","USA",2797.59,10.23,71.13,-1.84%,479498
+322,"EFXT","Enerflex Ltd","Energy","Oil & Gas Equipment & Services","Canada",2549.27,40.77,20.93,-0.48%,250337
+323,"EGO","Eldorado Gold Corp","Basic Materials","Gold","Canada",7301.42,14.73,36.77,-5.28%,1945377
+324,"EHC","Encompass Health Corp","Healthcare","Medical Care Facilities","USA",9978.40,18.11,100.37,0.07%,886898
+325,"ELF","e.l.f. Beauty Inc","Consumer Defensive","Household & Personal Products","USA",4335.03,41.49,73.41,1.14%,3013208
+326,"ELPC","Cia Paranaense De Energia Copel ADR","Utilities","Utilities - Diversified","Brazil",7900.41,16.36,10.64,-1.57%,194736
+327,"EMAT","Evolution Metals & Technologies Corp","Basic Materials","Other Industrial Metals & Mining","USA",4628.13,,7.80,-1.89%,87245
+328,"EMN","Eastman Chemical Co","Basic Materials","Specialty Chemicals","USA",7901.24,16.94,69.25,-1.90%,1626949
+329,"ENIC","Enel Chile S.A. ADR","Utilities","Utilities - Regulated Electric","Chile",5491.82,10.19,3.97,0.51%,607967
+330,"ENLT","Enlight Renewable Energy Ltd","Utilities","Utilities - Renewable","Israel",9739.58,68.26,70.18,1.81%,92483
+331,"ENPH","Enphase Energy Inc","Technology","Solar","USA",5777.52,34.14,44.07,3.45%,4072138
+332,"ENS","Enersys","Industrials","Electrical Equipment & Parts","USA",5933.07,19.93,161.00,0.78%,475043
+333,"ENVA","Enova International Inc","Financial","Credit Services","USA",3354.13,11.58,134.11,-0.96%,211256
+334,"EPAM","EPAM Systems Inc","Technology","Information Technology Services","USA",7424.76,20.38,137.14,0.98%,1356118
+335,"EPR","EPR Properties","Real Estate","REIT - Specialty","USA",4286.65,17.09,56.02,0.39%,587059
+336,"EPRT","Essential Properties Realty Trust Inc","Real Estate","REIT - Retail","USA",6931.68,25.85,32.95,-0.21%,1965689
+337,"EQPT","Equipmentshare.Com Inc","Industrials","Rental & Leasing Services","USA",6392.64,,25.44,-1.70%,1053342
+338,"ERAS","Erasca Inc","Healthcare","Biotechnology","USA",4233.09,,13.62,-7.03%,5345475
+339,"ERO","Ero Copper Corp","Basic Materials","Copper","Canada",2723.79,10.32,26.12,-4.36%,1097060
+340,"ESAB","ESAB Corp","Industrials","Metal Fabrication","USA",5947.16,26.57,97.93,-5.47%,627945
+341,"ESE","Esco Technologies, Inc","Technology","Scientific & Technical Instruments","USA",6831.82,51.85,263.82,-0.98%,129541
+342,"ESI","Element Solutions Inc","Basic Materials","Specialty Chemicals","USA",7548.49,39.40,30.99,2.99%,3703799
+343,"ESNT","Essent Group Ltd","Financial","Insurance - Specialty","Bermuda",5491.99,8.43,58.09,0.69%,659653
+344,"ESTC","Elastic N.V","Technology","Software - Application","USA",5329.27,,51.49,-0.41%,2035930
+345,"ETOR","Etoro Group Ltd","Financial","Capital Markets","Israel",2439.22,11.70,30.11,0.43%,921761
+346,"ETSY","Etsy Inc","Consumer Cyclical","Internet Retail","USA",5006.78,38.33,52.02,0.06%,2015775
+347,"ETY","Eaton Vance Tax-Managed Diversified Equity Income Fund","Financial","Closed-End Fund - Equity","USA",2272.42,7.39,14.27,-0.42%,225794
+348,"EWTX","Edgewise Therapeutics Inc","Healthcare","Biotechnology","USA",3174.13,,29.59,-1.17%,702239
+349,"EXG","Eaton Vance Tax-Managed Global Diversified Equity Income Fund","Financial","Closed-End Fund - Foreign","USA",2747.31,6.55,8.98,-1.10%,326892
+350,"EXK","Endeavour Silver Corp","Basic Materials","Silver","Canada",2948.43,,9.97,-7.51%,10469722
+351,"EXLS","ExlService Holdings Inc","Technology","Information Technology Services","USA",4635.21,19.20,29.64,-0.24%,2237538
+352,"EXP","Eagle Materials Inc","Basic Materials","Building Materials","USA",5861.15,14.12,186.47,0.02%,352895
+353,"EXPO","Exponent Inc","Industrials","Engineering & Construction","USA",3318.27,32.56,67.37,-3.32%,434591
+354,"EYE","National Vision Holdings Inc","Consumer Cyclical","Specialty Retail","USA",2087.61,71.03,26.28,1.35%,972504
+355,"FAF","First American Financial Corp","Financial","Insurance - Specialty","USA",6690.75,10.92,65.66,3.58%,1055072
+356,"FBIN","Fortune Brands Innovations Inc","Industrials","Building Products & Equipment","USA",5178.70,17.47,43.16,-0.25%,1650921
+357,"FBK","FB Financial Corp","Financial","Banks - Regional","USA",2648.43,21.26,51.17,0.08%,206046
+358,"FBNC","First Bancorp","Financial","Banks - Regional","USA",2206.18,19.85,53.19,-0.95%,212359
+359,"FBP","First Bancorp PR","Financial","Banks - Regional","USA",3217.41,9.57,20.55,-1.39%,2360622
+360,"FCFS","FirstCash Holdings Inc","Financial","Credit Services","USA",8492.13,26.01,193.07,1.11%,210677
+361,"FCN","FTI Consulting Inc","Industrials","Consulting Services","USA",4972.00,,162.58,0.09%,349567
+362,"FCPT","Four Corners Property Trust Inc","Real Estate","REIT - Retail","USA",2813.86,23.51,25.64,-0.54%,821926
+363,"FDS","Factset Research Systems Inc","Financial","Financial Data & Stock Exchanges","USA",7629.46,13.08,205.65,1.01%,690369
+364,"FELE","Franklin Electric Co., Inc","Industrials","Specialty Industrial Machinery","USA",4018.42,28.30,90.91,-0.37%,234534
+365,"FFBC","First Financial Bancorp","Financial","Banks - Regional","USA",2815.46,10.13,26.92,-0.41%,623086
+366,"FFIN","First Financial Bankshares, Inc","Financial","Banks - Regional","USA",4233.84,16.72,29.56,-0.17%,750541
+367,"FG","F&G Annuities & Life Inc","Financial","Insurance - Life","USA",2839.68,11.80,20.94,1.21%,635985
+368,"FHB","First Hawaiian INC","Financial","Banks - Regional","USA",2938.41,10.88,23.95,0.29%,1318589
+369,"FHI","Federated Hermes Inc","Financial","Asset Management","USA",4329.80,11.11,56.99,0.78%,830787
+370,"FIBK","First Interstate BancSystem Inc","Financial","Banks - Regional","USA",3350.05,11.25,33.13,-0.30%,1049501
+371,"FIGR","Figure Technology Solutions Inc","Financial","Capital Markets","USA",7562.03,,35.07,-2.96%,4709872
+372,"FIGS","Figs Inc","Consumer Cyclical","Apparel Manufacturing","USA",2470.70,79.75,14.85,-1.00%,2437405
+373,"FIZZ","National Beverage Corp","Consumer Defensive","Beverages - Non-Alcoholic","USA",3345.47,17.80,35.73,4.32%,451357
+374,"FLG","Flagstar Bank NA","Financial","Banks - Regional","USA",5075.12,,12.20,-0.33%,5229275
+375,"FLNC","Fluence Energy Inc","Utilities","Utilities - Renewable","USA",3012.86,,16.38,-0.24%,3394761
+376,"FLOC","Flowco Holdings Inc","Energy","Oil & Gas Equipment & Services","USA",2044.31,49.51,22.80,2.43%,283774
+377,"FLR","Fluor Corporation","Industrials","Engineering & Construction","USA",6305.21,,43.02,-1.06%,1910452
+378,"FLS","Flowserve Corp","Industrials","Specialty Industrial Machinery","USA",9454.17,28.31,74.29,-1.84%,1549930
+379,"FLY","Firefly Aerospace Inc","Industrials","Aerospace & Defense","USA",3737.62,,23.47,1.03%,5604785
+380,"FNB","F.N.B. Corp","Financial","Banks - Regional","USA",5661.04,10.13,15.84,-1.43%,4835024
+381,"FND","Floor & Decor Holdings Inc","Consumer Cyclical","Home Improvement Retail","USA",6148.89,29.62,57.00,2.30%,1560743
+382,"FOLD","Amicus Therapeutics Inc","Healthcare","Biotechnology","USA",4512.19,,14.37,0.00%,2738134
+383,"FORM","FormFactor Inc","Technology","Semiconductor Equipment & Materials","USA",7006.38,129.34,89.92,1.72%,665101
+384,"FOUR","Shift4 Payments Inc","Technology","Software - Infrastructure","USA",4426.75,40.43,43.33,-1.32%,1675945
+385,"FPS","Forgent Power Solutions Inc","Industrials","Electrical Equipment & Parts","USA",9428.16,,31.01,-3.24%,3149507
+386,"FR","First Industrial Realty Trust, Inc","Real Estate","REIT - Industrial","USA",8208.34,32.21,60.12,-0.11%,970040
+387,"FRHC","Freedom Holding Corp","Financial","Financial Conglomerates","Kazakhstan",8076.54,3350.00,131.99,-1.40%,84706
+388,"FRME","First Merchants Corp","Financial","Banks - Regional","USA",2309.40,9.38,36.43,-0.33%,597467
+389,"FRMI","Fermi Inc","Real Estate","REIT - Specialty","USA",4887.64,,7.96,-1.73%,5748701
+390,"FRO","Frontline Plc","Energy","Oil & Gas Midstream","Cyprus",6718.76,17.72,30.18,-1.92%,4572230
+391,"FROG","JFrog Ltd","Technology","Software - Application","USA",4913.16,,41.07,-1.96%,1797317
+392,"FRPT","Freshpet Inc","Consumer Defensive","Packaged Foods","USA",3757.78,29.85,76.60,-1.85%,1455012
+393,"FRSH","Freshworks Inc","Technology","Software - Application","USA",2310.02,12.55,8.13,2.26%,5275272
+394,"FRT","Federal Realty Investment Trust","Real Estate","REIT - Retail","USA",9070.04,22.38,104.49,-0.82%,492464
+395,"FSK","FS KKR Capital Corp","Financial","Asset Management","USA",2825.87,256.74,10.09,-1.46%,4076633
+396,"FSLY","Fastly Inc","Technology","Software - Application","USA",3731.24,,24.58,1.49%,9640197
+397,"FSM","Fortuna Mining Corp","Basic Materials","Gold","Canada",3141.13,11.03,10.29,-6.79%,7195963
+398,"FSS","Federal Signal Corp","Industrials","Pollution & Treatment Controls","USA",6418.83,26.28,105.42,-1.31%,675944
+399,"FSV","FirstService Corp","Real Estate","Real Estate Services","Canada",6494.22,44.60,141.24,-0.51%,243170
+400,"FTDR","Frontdoor Inc","Consumer Cyclical","Personal Services","USA",4463.04,18.46,63.20,0.03%,594034
+401,"FUL","H.B. Fuller Company","Basic Materials","Specialty Chemicals","USA",2955.84,19.71,54.26,-1.88%,509115
+402,"FULT","Fulton Financial Corp","Financial","Banks - Regional","USA",3537.21,9.45,19.65,-0.35%,2519049
+403,"G","Genpact Ltd","Technology","Information Technology Services","Bermuda",6505.78,12.24,38.30,0.39%,2200925
+404,"GAP","Gap, Inc","Consumer Cyclical","Apparel Retail","USA",8643.46,10.83,23.24,0.48%,8016220
+405,"GATX","GATX Corp","Industrials","Rental & Leasing Services","USA",5981.75,18.48,168.50,-0.83%,175997
+406,"GBCI","Glacier Bancorp, Inc","Financial","Banks - Regional","USA",5652.88,21.80,43.48,-1.27%,808696
+407,"GBDC","Golub Capital BDC Inc","Financial","Asset Management","USA",3150.84,9.63,11.97,-1.32%,4156808
+408,"GBTG","Global Business Travel Group Inc","Consumer Cyclical","Travel Services","USA",2913.44,25.78,5.56,1.09%,1271283
+409,"GCMG","GCM Grosvenor Inc","Financial","Asset Management","USA",2095.63,28.07,10.35,-0.58%,1058953
+410,"GDS","GDS Holdings Limited ADR","Technology","Information Technology Services","China",8611.86,75.01,42.86,0.09%,1436175
+411,"GDV","Gabelli Dividend & Income Trust","Financial","Closed-End Fund - Equity","USA",2405.21,6.75,27.28,-0.15%,156042
+412,"GEF","Greif Inc","Consumer Cyclical","Packaging & Containers","USA",3450.29,17.91,67.42,0.64%,229376
+413,"GEL","Genesis Energy L.P","Energy","Oil & Gas Midstream","USA",2173.74,,17.75,-0.56%,263968
+414,"GFF","Griffon Corp","Industrials","Building Products & Equipment","USA",3298.74,77.41,70.82,1.08%,339307
+415,"GGAL","Grupo Financiero Galicia ADR","Financial","Banks - Regional","Argentina",5448.40,36.98,41.12,-4.62%,903655
+416,"GGB","Gerdau S.A. ADR","Basic Materials","Steel","Brazil",4125.26,28.70,3.30,-2.94%,19111673
+417,"GKOS","Glaukos Corporation","Healthcare","Medical Devices","USA",5634.81,,97.02,-0.79%,646412
+418,"GLBE","Global E Online Ltd","Consumer Cyclical","Internet Retail","Israel",5892.96,91.21,34.78,0.72%,1182074
+419,"GLNG","Golar Lng","Energy","Oil & Gas Midstream","Bermuda",4492.49,,42.94,-4.13%,1853095
+420,"GLPG","Galapagos NV ADR","Healthcare","Biotechnology","Belgium",2089.69,5.32,31.71,-0.69%,177040
+421,"GLXY","Galaxy Digital Inc","Financial","Capital Markets","USA",8696.30,,22.35,8.34%,7055805
+422,"GNL","Global Net Lease Inc","Real Estate","REIT - Diversified","USA",2011.21,,9.39,-0.63%,1824754
+423,"GNTX","Gentex Corp","Consumer Cyclical","Auto Parts","USA",4516.99,12.09,20.97,-1.60%,1845254
+424,"GNW","Genworth Financial Inc","Financial","Insurance - Life","USA",3077.63,14.82,7.94,-1.98%,3247982
+425,"GOF","Guggenheim Strategic Opportunities Fund","Financial","Closed-End Fund - Debt","USA",2336.72,6.37,11.02,-2.39%,2208433
+426,"GOLF","Acushnet Holdings Corp","Consumer Cyclical","Leisure","USA",5447.28,30.09,93.02,0.14%,362404
+427,"GPCR","Structure Therapeutics Inc ADR","Healthcare","Biotechnology","USA",3807.65,,53.75,-1.52%,587553
+428,"GPGI","GPGI Inc","Industrials","Metal Fabrication","USA",4782.00,,16.51,-5.93%,7129823
+429,"GPI","Group 1 Automotive, Inc","Consumer Cyclical","Auto & Truck Dealerships","USA",3576.37,12.02,299.90,-0.34%,155030
+430,"GPK","Graphic Packaging Holding Co","Consumer Cyclical","Packaging & Containers","USA",2877.56,6.57,9.73,-0.92%,8080434
+431,"GPOR","Gulfport Energy Corp","Energy","Oil & Gas E&P","USA",3649.33,9.68,196.64,0.32%,324522
+432,"GRBK","Green Brick Partners Inc","Consumer Cyclical","Residential Construction","USA",2806.09,9.19,65.02,1.50%,190495
+433,"GRDN","Guardian Pharmacy Services Inc","Healthcare","Medical Care Facilities","USA",2063.62,41.96,32.59,-2.04%,514917
+434,"GRFS","Grifols SA ADR","Healthcare","Drug Manufacturers - General","Spain",2016.70,11.59,7.81,-2.01%,917510
+435,"GRND","Grindr Inc","Technology","Software - Application","USA",2208.81,27.24,11.93,-1.97%,848986
+436,"GSAT","Globalstar Inc","Communication Services","Telecom Services","USA",7543.57,,58.68,2.75%,550331
+437,"GTES","Gates Industrial Corporation plc","Industrials","Specialty Industrial Machinery","USA",5775.22,23.52,22.75,-1.81%,2291275
+438,"GTLB","Gitlab Inc","Technology","Software - Infrastructure","USA",3778.61,,22.69,-0.57%,4662902
+439,"GTLS","Chart Industries Inc","Industrials","Specialty Industrial Machinery","USA",9898.60,800.31,206.80,-0.05%,2693237
+440,"GTX","Garrett Motion Inc","Consumer Cyclical","Auto Parts","Switzerland",3341.59,11.51,17.59,-0.45%,1953215
+441,"GVA","Granite Construction Inc","Industrials","Engineering & Construction","USA",5252.20,33.62,120.73,-2.38%,541295
+442,"GXO","GXO Logistics Inc","Industrials","Integrated Freight & Logistics","USA",6023.61,173.51,52.52,0.10%,1444173
+443,"HAE","Haemonetics Corp","Healthcare","Medical Devices","USA",2784.56,16.46,59.92,0.72%,972700
+444,"HAFN","Hafnia Ltd","Industrials","Marine Shipping","Singapore",3316.61,9.85,6.66,0.15%,4087656
+445,"HALO","Halozyme Therapeutics Inc","Healthcare","Biotechnology","USA",7512.96,25.55,63.66,0.16%,1134140
+446,"HASI","HA Sustainable Infrastructure Capital Inc","Financial","Asset Management","USA",4522.59,25.93,35.41,-0.87%,668056
+447,"HAYW","Hayward Holdings Inc","Industrials","Electrical Equipment & Parts","USA",3095.21,20.89,14.25,-0.21%,1422266
+448,"HBM","Hudbay Minerals Inc","Basic Materials","Copper","Canada",8226.70,14.47,20.73,-5.13%,5816214
+449,"HCC","Warrior Met Coal Inc","Basic Materials","Coking Coal","USA",4474.77,78.52,85.12,-0.26%,782744
+450,"HCI","HCI Group Inc","Financial","Insurance - Property & Casualty","USA",2174.72,7.38,167.39,2.59%,102717
+451,"HE","Hawaiian Electric Industries, Inc","Utilities","Utilities - Regulated Electric","USA",2534.07,20.61,14.68,-0.41%,2037784
+452,"HESM","Hess Midstream LP","Energy","Oil & Gas Midstream","USA",8097.70,13.64,38.99,0.18%,1483908
+453,"HG","Hamilton Insurance Group Ltd","Financial","Insurance - Reinsurance","Bermuda",2883.02,5.02,29.08,1.61%,377769
+454,"HGTY","Hagerty Inc","Financial","Insurance - Property & Casualty","USA",3504.99,30.33,10.23,4.49%,173099
+455,"HGV","Hilton Grand Vacations Inc","Consumer Cyclical","Resorts & Casinos","USA",3328.61,44.20,40.88,-2.34%,555435
+456,"HHH","Howard Hughes Holdings Inc","Real Estate","Real Estate - Diversified","USA",3810.17,30.23,63.89,3.37%,656782
+457,"HIMS","Hims & Hers Health Inc","Healthcare","Drug Manufacturers - Specialty & Generic","USA",5646.04,47.44,24.77,3.90%,42982451
+458,"HIW","Highwoods Properties, Inc","Real Estate","REIT - Office","USA",2358.02,14.81,21.45,-0.56%,1021565
+459,"HLI","Houlihan Lokey Inc","Financial","Capital Markets","USA",9729.47,21.41,139.42,-0.32%,592437
+460,"HLIO","Helios Technologies Inc","Industrials","Specialty Industrial Machinery","USA",2124.48,44.02,64.17,-2.37%,416879
+461,"HLNE","Hamilton Lane Inc","Financial","Asset Management","USA",5401.82,17.38,96.85,2.78%,809889
+462,"HMY","Harmony Gold Mining Co Ltd ADR","Basic Materials","Gold","South Africa",9453.83,10.45,15.13,-5.26%,5954175
+463,"HNGE","Hinge Health Inc","Healthcare","Health Information Services","USA",3559.67,,45.00,1.21%,1078748
+464,"HNI","HNI Corp","Consumer Cyclical","Furnishings, Fixtures & Appliances","USA",2886.48,32.24,40.50,0.10%,1481651
+465,"HOMB","Home Bancshares Inc","Financial","Banks - Regional","USA",5173.44,10.95,26.31,-0.08%,1507648
+466,"HP","Helmerich & Payne, Inc","Energy","Oil & Gas Drilling","USA",3559.63,,35.65,5.32%,1507554
+467,"HQY","Healthequity Inc","Healthcare","Health Information Services","USA",6647.80,35.66,77.81,1.33%,1159522
+468,"HR","Healthcare Realty Trust Inc","Real Estate","REIT - Healthcare Facilities","USA",6272.32,,17.97,-1.43%,2117953
+469,"HRB","H&R Block Inc","Consumer Cyclical","Personal Services","USA",3867.44,7.04,30.51,0.96%,2206118
+470,"HRI","Herc Holdings Inc","Industrials","Rental & Leasing Services","USA",3634.35,,108.85,-1.88%,562651
+471,"HSAI","Hesai Group ADR","Consumer Cyclical","Auto Parts","China",3128.57,55.40,24.04,-1.23%,1416424
+472,"HSIC","Henry Schein Inc","Healthcare","Medical Distribution","USA",8668.19,23.11,75.57,0.80%,1193301
+473,"HTGC","Hercules Capital Inc","Financial","Asset Management","USA",2579.08,7.65,14.04,0.00%,3007845
+474,"HTH","Hilltop Holdings Inc","Financial","Financial Conglomerates","USA",2065.87,13.15,34.75,-0.40%,728943
+475,"HTO","H2O America","Utilities","Utilities - Regulated Water","USA",2464.74,20.23,58.93,2.74%,396800
+476,"HUBG","Hub Group, Inc","Industrials","Integrated Freight & Logistics","USA",2097.57,19.74,34.30,-1.72%,1103838
+477,"HUN","Huntsman Corp","Basic Materials","Chemicals","USA",2093.33,,12.03,-6.02%,8441431
+478,"HURN","Huron Consulting Group Inc","Industrials","Consulting Services","USA",2151.58,21.74,127.14,-1.29%,188828
+479,"HUT","Hut 8 Corp","Financial","Capital Markets","USA",5358.20,,48.32,-0.45%,2725223
+480,"HWC","Hancock Whitney Corp","Financial","Banks - Regional","USA",5055.75,10.92,61.91,-0.31%,823169
+481,"HWKN","Hawkins Inc","Basic Materials","Specialty Chemicals","USA",2923.78,35.36,139.88,0.12%,123329
+482,"HXL","Hexcel Corp","Industrials","Aerospace & Defense","USA",6000.59,57.49,79.09,-4.31%,2513297
+483,"HYMC","Hycroft Mining Holding Corporation","Basic Materials","Gold","USA",3453.00,,37.93,-5.46%,3292361
+484,"IAC","IAC Inc","Communication Services","Internet Content & Information","USA",2865.59,,37.26,-0.05%,772547
+485,"IBOC","International Bancshares Corp","Financial","Banks - Regional","USA",4195.75,10.20,67.48,0.24%,415404
+486,"IBP","Installed Building Products Inc","Consumer Cyclical","Residential Construction","USA",7679.56,29.28,284.82,5.37%,477792
+487,"IBRX","ImmunityBio Inc","Healthcare","Biotechnology","USA",8625.86,,8.39,7.29%,30623281
+488,"ICL","ICL Group Ltd","Basic Materials","Agricultural Inputs","Israel",6930.91,30.71,5.38,-1.38%,1780431
+489,"ICLR","Icon Plc","Healthcare","Diagnostics & Research","Ireland",7508.47,13.29,98.33,0.90%,970245
+490,"ICUI","ICU Medical, Inc","Healthcare","Medical Instruments & Supplies","USA",3107.27,5115.85,125.85,-2.28%,256869
+491,"IDA","Idacorp, Inc","Utilities","Utilities - Regulated Electric","USA",7817.07,24.10,142.39,0.99%,350112
+492,"IDCC","Interdigital Inc","Technology","Software - Application","USA",9223.35,30.07,359.07,-0.91%,199364
+493,"IDYA","Ideaya Biosciences Inc","Healthcare","Biotechnology","USA",2905.77,,33.09,0.79%,812928
+494,"IEP","Icahn Enterprises L P","Energy","Oil & Gas Refining & Marketing","USA",4874.65,,7.65,0.79%,746950
+495,"IESC","IES Holdings Inc","Industrials","Engineering & Construction","USA",8823.32,26.34,442.76,1.67%,129006
+496,"IFS","Intercorp Financial Services Inc","Financial","Banks - Regional","Peru",5252.87,9.20,44.71,-0.07%,227467
+497,"IHS","IHS Holding Ltd","Real Estate","Real Estate Services","United Kingdom",2734.22,5.88,8.20,0.49%,1550142
+498,"IMAX","Imax Corp","Communication Services","Entertainment","Canada",2057.13,60.53,38.10,-0.55%,768529
+499,"IMNM","Immunome Inc","Healthcare","Biotechnology","USA",2303.39,,20.36,-3.00%,983594
+500,"IMVT","Immunovant Inc","Healthcare","Biotechnology","USA",4968.22,,24.41,-2.32%,1106627
+501,"INDB","Independent Bank Corp","Financial","Banks - Regional","USA",3655.17,16.79,74.74,-0.45%,299493
+502,"INDV","Indivior Pharmaceuticals Inc","Healthcare","Drug Manufacturers - Specialty & Generic","USA",3890.78,18.74,31.11,0.81%,13297326
+503,"INFQ","Infleqtion Inc","Technology","Software - Infrastructure","USA",2182.04,,10.08,-5.62%,3074322
+504,"INGM","Ingram Micro Holding Corp","Technology","Information Technology Services","USA",5044.70,15.41,21.49,0.33%,1071814
+505,"INGR","Ingredion Inc","Consumer Defensive","Packaged Foods","USA",7070.62,10.06,112.33,0.91%,439907
+506,"INSW","International Seaways Inc","Energy","Oil & Gas Midstream","USA",3257.77,10.57,65.91,-1.24%,478516
+507,"INTA","Intapp Inc","Technology","Software - Application","USA",2062.15,,25.65,4.06%,1060513
+508,"INTR","Inter & Co Inc","Financial","Banks - Regional","Brazil",3442.31,14.57,7.80,-3.47%,2943786
+509,"IPAR","Interparfums Inc","Consumer Defensive","Household & Personal Products","USA",2934.25,17.46,91.49,0.74%,256132
+510,"IPGP","IPG Photonics Corp","Technology","Semiconductor Equipment & Materials","USA",4681.13,152.07,110.95,1.22%,316395
+511,"IRDM","Iridium Communications Inc","Communication Services","Telecom Services","USA",2609.23,23.38,24.86,0.32%,1529149
+512,"IRON","Disc Medicine Inc","Healthcare","Biotechnology","USA",2291.13,,60.04,0.47%,384381
+513,"IRT","Independence Realty Trust Inc","Real Estate","REIT - Residential","USA",3845.34,66.07,15.81,-1.68%,2451164
+514,"IRTC","iRhythm Holdings Inc","Healthcare","Medical Devices","USA",3651.79,,113.00,-1.46%,649419
+515,"ITGR","Integer Holdings Corp","Healthcare","Medical Devices","USA",2855.12,28.94,83.04,-0.32%,1051932
+516,"ITRI","Itron Inc","Technology","Scientific & Technical Instruments","USA",4044.71,13.84,90.00,-0.68%,539891
+517,"IVT","InvenTrust Properties Corp","Real Estate","REIT - Retail","USA",2427.32,21.95,31.24,1.17%,493116
+518,"JBTM","JBT Marel Corp","Industrials","Specialty Industrial Machinery","USA",6738.97,,129.64,-4.16%,1220808
+519,"JEF","Jefferies Financial Group Inc","Financial","Capital Markets","USA",7510.11,12.84,36.36,0.94%,3167875
+520,"JHG","Janus Henderson Group plc","Financial","Asset Management","United Kingdom",7723.81,9.55,50.13,-0.52%,1493836
+521,"JOBY","Joby Aviation Inc","Industrials","Airports & Air Services","USA",9499.54,,9.70,-0.41%,23063364
+522,"JOE","St. Joe Co","Real Estate","Real Estate - Diversified","USA",4055.73,35.31,70.48,1.56%,184774
+523,"JOYY","JOYY Inc ADR","Communication Services","Internet Content & Information","Singapore",2078.00,14.83,61.74,0.84%,444763
+524,"JPC","Nuveen Preferred & Income Opportunities Fund","Financial","Closed-End Fund - Debt","USA",2948.33,10.19,7.95,-0.75%,848626
+525,"JXN","Jackson Financial Inc","Financial","Insurance - Life","USA",7399.69,,104.69,-0.02%,865148
+526,"KAI","Kadant, Inc","Industrials","Specialty Industrial Machinery","USA",3579.74,35.12,303.65,-5.48%,141708
+527,"KBH","KB Home","Consumer Cyclical","Residential Construction","USA",3345.04,8.60,52.95,-0.36%,1460115
+528,"KBR","KBR Inc","Industrials","Engineering & Construction","USA",4634.98,10.87,36.65,-0.38%,1157192
+529,"KC","Kingsoft Cloud Holdings Ltd ADR","Technology","Software - Application","China",4005.40,,13.54,0.00%,833312
+530,"KD","Kyndryl Holdings Inc","Technology","Information Technology Services","USA",2784.27,11.77,12.35,-1.67%,2672790
+531,"KEX","Kirby Corp","Industrials","Marine Shipping","USA",6703.07,19.74,124.95,0.60%,656124
+532,"KFY","Korn Ferry","Industrials","Staffing & Employment Services","USA",3148.51,12.00,60.68,-1.37%,545634
+533,"KGS","Kodiak Gas Services Inc","Energy","Oil & Gas Equipment & Services","USA",4654.12,62.15,54.20,-0.28%,904912
+534,"KLAR","Klarna Group plc","Technology","Software - Infrastructure","United Kingdom",6006.18,,15.91,8.82%,9310433
+535,"KLIC","Kulicke & Soffa Industries, Inc","Technology","Semiconductor Equipment & Materials","USA",3368.26,,64.37,1.55%,562855
+536,"KMT","Kennametal Inc","Industrials","Tools & Accessories","USA",2910.03,26.73,38.19,-1.47%,1902436
+537,"KMX","Carmax Inc","Consumer Cyclical","Auto & Truck Dealerships","USA",5932.77,13.84,41.84,2.05%,2926503
+538,"KN","Knowles Corp","Technology","Electronic Components","USA",2101.61,46.05,24.75,-1.04%,451701
+539,"KNF","Knife River Corp","Basic Materials","Building Materials","USA",4446.44,28.49,78.47,0.28%,812127
+540,"KNSA","Kiniksa Pharmaceuticals International Plc","Healthcare","Drug Manufacturers - Specialty & Generic","United Kingdom",3503.79,61.42,45.78,-0.63%,852872
+541,"KNSL","Kinsale Capital Group Inc","Financial","Insurance - Property & Casualty","USA",8393.68,16.74,362.53,0.19%,127214
+542,"KNTK","Kinetik Holdings Inc","Energy","Oil & Gas Midstream","USA",7270.73,17.48,44.84,-0.66%,1117200
+543,"KNX","Knight-Swift Transportation Holdings Inc","Industrials","Trucking","USA",8434.77,128.00,51.93,-0.15%,5082008
+544,"KOF","Coca-Cola Femsa S.A.B. DE C.V. ADR","Consumer Defensive","Beverages - Non-Alcoholic","Mexico",5102.84,16.33,97.16,-2.23%,236508
+545,"KRC","Kilroy Realty Corp","Real Estate","REIT - Office","USA",3409.64,12.30,28.49,-2.83%,1210212
+546,"KRG","Kite Realty Group Trust","Real Estate","REIT - Retail","USA",5198.76,29.35,25.14,-0.81%,2725519
+547,"KRYS","Krystal Biotech Inc","Healthcare","Biotechnology","USA",7227.95,36.13,247.26,-1.61%,286777
+548,"KTB","Kontoor Brands Inc","Consumer Cyclical","Apparel Manufacturing","USA",3729.10,16.66,67.51,1.73%,759860
+549,"KVYO","Klaviyo Inc","Technology","Software - Application","USA",5827.28,,19.11,-0.80%,2390138
+550,"KWR","Quaker Houghton","Basic Materials","Specialty Chemicals","USA",2053.34,,118.45,-2.04%,220348
+551,"KYIV","Kyivstar Group Ltd","Communication Services","Telecom Services","United Arab Emirates",2555.66,,11.07,8.53%,2499232
+552,"KYMR","Kymera Therapeutics Inc","Healthcare","Biotechnology","USA",6452.20,,79.03,1.97%,417168
+553,"KYN","Kayne Anderson Energy Infrastructure Fund Inc","Financial","Closed-End Fund - Equity","USA",2377.91,,14.06,-1.06%,183348
+554,"LAD","Lithia Motors, Inc","Consumer Cyclical","Auto & Truck Dealerships","USA",5953.59,7.92,254.70,-0.45%,394058
+555,"LASR","nLIGHT Inc","Technology","Semiconductors","USA",3492.54,,62.60,-0.27%,1059711
+556,"LAUR","Laureate Education Inc","Consumer Defensive","Education & Training Services","USA",4890.40,17.89,34.26,1.66%,1757228
+557,"LAZ","Lazard Inc","Financial","Capital Markets","USA",3806.09,18.67,40.53,-0.37%,1565163
+558,"LB","Landbridge Company LLC","Energy","Oil & Gas Equipment & Services","USA",5765.50,79.91,74.79,2.85%,339722
+559,"LBRDA","Liberty Broadband Corp","Communication Services","Telecom Services","USA",7277.45,,50.56,1.06%,306347
+560,"LBRDK","Liberty Broadband Corp","Communication Services","Telecom Services","USA",7277.45,,50.74,1.24%,993302
+561,"LBRT","Liberty Energy Inc","Energy","Oil & Gas Equipment & Services","USA",4897.20,33.69,30.22,-0.26%,3510429
+562,"LBTYA","Liberty Global Ltd","Communication Services","Telecom Services","Bermuda",4044.34,,12.18,-1.93%,1469644
+563,"LBTYK","Liberty Global Ltd","Communication Services","Telecom Services","Bermuda",4044.34,,11.91,-1.33%,665413
+564,"LCID","Lucid Group Inc","Consumer Cyclical","Auto Manufacturers","USA",3244.07,,9.90,0.61%,5260250
+565,"LCII","LCI Industries","Consumer Cyclical","Recreational Vehicles","USA",2985.20,16.32,123.35,0.02%,220758
+566,"LEA","Lear Corp","Consumer Cyclical","Auto Parts","USA",5791.05,14.03,114.16,-1.29%,531170
+567,"LEGN","Legend Biotech Corp ADR","Healthcare","Biotechnology","USA",3467.62,,18.75,-1.57%,1418116
+568,"LEU","Centrus Energy Corp","Energy","Uranium","USA",4122.48,50.28,209.64,-2.42%,907585
+569,"LEVI","Levi Strauss & Co","Consumer Cyclical","Apparel Manufacturing","USA",6993.27,16.26,17.91,-1.16%,2113755
+570,"LFST","LifeStance Health Group Inc","Healthcare","Medical Care Facilities","USA",2467.33,253.20,6.33,0.00%,2293062
+571,"LFUS","Littelfuse, Inc","Technology","Electronic Components","USA",8189.62,,326.18,0.11%,303955
+572,"LGN","Legence Corp","Industrials","Engineering & Construction","USA",2376.05,,50.90,0.77%,738095
+573,"LGND","Ligand Pharmaceuticals, Inc","Healthcare","Biotechnology","USA",4046.26,34.78,202.91,-4.05%,273480
+574,"LIF","Life360 Inc","Technology","Software - Application","USA",3305.79,23.46,41.22,0.02%,1364570
+575,"LINE","Lineage Inc","Real Estate","REIT - Industrial","USA",8272.54,,36.43,-1.19%,562194
+576,"LION","Lionsgate Studios Corp","Financial","Shell Companies","Canada",2820.62,,9.72,-1.42%,1132876
+577,"LIVN","LivaNova PLC","Healthcare","Medical Devices","United Kingdom",3197.17,,58.46,-1.42%,1034551
+578,"LKQ","LKQ Corp","Consumer Cyclical","Auto Parts","USA",7485.58,12.48,29.34,-1.38%,2823449
+579,"LLYVA","Liberty Live Holdings Inc","Communication Services","Entertainment","USA",8283.81,,90.11,-2.65%,162353
+580,"LLYVK","Liberty Live Holdings Inc","Communication Services","Entertainment","USA",8461.24,,92.04,-2.85%,464116
+581,"LMAT","Lemaitre Vascular Inc","Healthcare","Medical Instruments & Supplies","USA",2461.43,42.99,108.06,1.43%,156442
+582,"LMND","Lemonade Inc","Financial","Insurance - Property & Casualty","USA",4212.55,,55.15,4.27%,1696314
+583,"LNC","Lincoln National Corp","Financial","Insurance - Life","USA",6198.85,6.14,32.61,0.06%,1708784
+584,"LNTH","Lantheus Holdings Inc","Healthcare","Drug Manufacturers - Specialty & Generic","USA",5135.52,23.61,79.49,-1.16%,909267
+585,"LOAR","Loar Holdings Inc","Industrials","Aerospace & Defense","USA",6054.56,85.96,64.67,2.60%,1620637
+586,"LOPE","Grand Canyon Education Inc","Consumer Defensive","Education & Training Services","USA",4450.71,21.25,163.97,-0.11%,286467
+587,"LPL","LG Display Co Ltd. ADR","Technology","Consumer Electronics","South Korea",3890.00,22.11,3.89,-2.51%,1147113
+588,"LPX","Louisiana-Pacific Corp","Industrials","Building Products & Equipment","USA",5293.84,36.35,75.81,0.65%,439032
+589,"LQDA","Liquidia Corp","Healthcare","Drug Manufacturers - Specialty & Generic","USA",3230.28,,36.66,-2.45%,1753755
+590,"LRN","Stride Inc","Consumer Defensive","Education & Training Services","USA",3592.07,12.84,84.36,0.61%,458348
+591,"LSTR","Landstar System, Inc","Industrials","Integrated Freight & Logistics","USA",5038.65,44.72,147.94,2.44%,634195
+592,"LTH","Life Time Group Holdings Inc","Consumer Cyclical","Leisure","USA",5833.47,15.88,26.30,2.18%,4233647
+593,"LUMN","Lumen Technologies Inc","Communication Services","Telecom Services","USA",6801.81,,6.64,3.11%,9421652
+594,"LUNR","Intuitive Machines Inc","Industrials","Aerospace & Defense","USA",3576.50,,17.60,-0.23%,8473653
+595,"LW","Lamb Weston Holdings Inc","Consumer Defensive","Packaged Foods","USA",5631.58,14.58,40.55,0.25%,4936348
+596,"LXP","LXP Industrial Trust","Real Estate","REIT - Industrial","USA",2759.49,25.69,46.71,-0.36%,593782
+597,"LYFT","Lyft Inc","Technology","Software - Application","USA",5203.27,1.84,13.07,0.93%,14834864
+598,"M","Macy's Inc","Consumer Cyclical","Department Stores","USA",4533.31,10.02,17.05,-0.70%,6773862
+599,"MAC","Macerich Co","Real Estate","REIT - Retail","USA",5006.22,,18.72,0.32%,1294321
+600,"MAIN","Main Street Capital Corporation","Financial","Asset Management","USA",4945.85,9.94,54.89,0.42%,1008883
+601,"MANH","Manhattan Associates, Inc","Technology","Software - Application","USA",8425.34,39.07,140.78,0.35%,676998
+602,"MANU","Manchester United Plc","Communication Services","Entertainment","United Kingdom",2765.76,,16.04,0.38%,439881
+603,"MARA","MARA Holdings Inc","Financial","Capital Markets","USA",3543.79,,9.32,6.39%,73339049
+604,"MASI","Masimo Corp","Healthcare","Medical Devices","USA",9161.35,,175.49,-0.01%,1814182
+605,"MAT","Mattel, Inc","Consumer Cyclical","Leisure","USA",4853.33,12.76,16.06,-0.99%,2717174
+606,"MATX","Matson Inc","Industrials","Marine Shipping","USA",4557.98,10.74,149.74,0.34%,289278
+607,"MAZE","Maze Therapeutics Inc","Healthcare","Biotechnology","USA",2416.08,,50.21,-3.13%,1065922
+608,"MBLY","Mobileye Global Inc","Consumer Cyclical","Auto Parts","Israel",6369.26,,7.57,-0.26%,2906592
+609,"MC","Moelis & Co","Financial","Capital Markets","USA",4131.44,17.59,51.75,0.72%,1212043
+610,"MCHB","Mechanics Bancorp","Financial","Banks - Regional","USA",3289.58,,14.22,0.42%,274983
+611,"MCW","Mister Car Wash Inc","Consumer Cyclical","Auto & Truck Dealerships","USA",2286.21,22.42,6.96,0.00%,2053144
+612,"MCY","Mercury General Corp","Financial","Insurance - Property & Casualty","USA",4927.37,9.11,88.96,1.58%,180505
+613,"MDA","MDA Space Ltd","Industrials","Aerospace & Defense","Canada",3793.44,49.52,29.99,-2.63%,863890
+614,"MDU","MDU Resources Group Inc","Utilities","Utilities - Regulated Gas","USA",4312.48,22.76,21.10,0.96%,2104170
+615,"MEOH","Methanex Corp","Basic Materials","Chemicals","Canada",4002.35,38.10,51.75,-10.87%,2101567
+616,"MGEE","MGE Energy, Inc","Utilities","Utilities - Regulated Electric","USA",2733.88,20.12,74.77,1.36%,207705
+617,"MGM","MGM Resorts International","Consumer Cyclical","Resorts & Casinos","USA",9383.79,48.56,36.68,1.05%,3807550
+618,"MGRC","McGrath Rentcorp","Industrials","Rental & Leasing Services","USA",2549.52,16.33,103.59,-0.39%,178645
+619,"MGY","Magnolia Oil & Gas Corp","Energy","Oil & Gas E&P","USA",5498.97,17.10,29.50,1.94%,2538612
+620,"MH","McGraw Hill Inc","Consumer Defensive","Education & Training Services","USA",2595.71,,13.59,-1.81%,351308
+621,"MHK","Mohawk Industries, Inc","Consumer Cyclical","Furnishings, Fixtures & Appliances","USA",6302.76,17.32,102.55,-0.44%,786081
+622,"MHO","MI Homes Inc","Consumer Cyclical","Residential Construction","USA",3316.56,8.75,128.71,0.31%,292530
+623,"MIAX","Miami International Holdings Inc","Financial","Capital Markets","USA",3525.83,,38.47,1.00%,990692
+624,"MICC","Magnum Ice Cream Company N.V","Consumer Defensive","Packaged Foods","Netherlands",9490.03,30.80,15.50,1.11%,1456603
+625,"MIDD","Middleby Corp","Industrials","Specialty Industrial Machinery","USA",6750.66,,143.08,-1.32%,452159
+626,"MIR","Mirion Technologies Inc","Industrials","Specialty Industrial Machinery","USA",4682.54,170.53,18.69,-6.74%,8148249
+627,"MIRM","Mirum Pharmaceuticals Inc","Healthcare","Biotechnology","USA",5470.57,,90.66,0.98%,505638
+628,"MKTX","MarketAxess Holdings Inc","Financial","Capital Markets","USA",6402.95,27.04,180.12,-0.75%,601810
+629,"MLCO","Melco Resorts & Entertainment Ltd ADR","Consumer Cyclical","Resorts & Casinos","Hong Kong",2183.96,12.02,5.59,1.64%,856052
+630,"MLYS","Mineralys Therapeutics Inc","Healthcare","Biotechnology","USA",2158.04,,26.19,-2.96%,1393543
+631,"MMS","Maximus Inc","Industrials","Specialty Business Services","USA",3949.86,11.02,72.41,-0.03%,455746
+632,"MMSI","Merit Medical Systems, Inc","Healthcare","Medical Instruments & Supplies","USA",4157.26,32.90,69.95,2.61%,933719
+633,"MMYT","MakeMyTrip Ltd","Consumer Cyclical","Travel Services","India",4316.46,92.80,45.50,-0.07%,1221416
+634,"MNDY","Monday.Com Ltd","Technology","Software - Application","Israel",3800.89,33.41,74.86,1.74%,1363250
+635,"MNR","Mach Natural Resources LP","Energy","Oil & Gas E&P","USA",2302.91,13.02,13.69,1.94%,708312
+636,"MNSO","MINISO Group Holding Ltd ADR","Consumer Cyclical","Specialty Retail","China",5057.62,17.24,16.71,-0.30%,373529
+637,"MOD","Modine Manufacturing Co","Consumer Cyclical","Auto Parts","USA",9941.94,104.67,188.54,-1.77%,507202
+638,"MOG-A","Moog, Inc","Industrials","Aerospace & Defense","USA",9571.14,37.30,301.59,-1.56%,220384
+639,"MOH","Molina Healthcare Inc","Healthcare","Healthcare Plans","USA",7683.80,17.44,149.20,0.01%,1556469
+640,"MORN","Morningstar Inc","Financial","Financial Data & Stock Exchanges","USA",7252.14,20.56,183.21,1.24%,350110
+641,"MOS","Mosaic Company","Basic Materials","Agricultural Inputs","USA",9306.08,17.37,29.31,-6.54%,18706900
+642,"MPT","Medical Properties Trust Inc","Real Estate","REIT - Healthcare Facilities","USA",2862.98,,4.80,-4.29%,10031540
+643,"MRCY","Mercury Systems Inc","Industrials","Aerospace & Defense","USA",4690.74,,78.16,-4.03%,1060989
+644,"MRP","Millrose Properties Inc","Real Estate","REIT - Residential","USA",4363.40,11.61,28.30,-0.88%,1209041
+645,"MRX","Marex Group Plc","Financial","Capital Markets","United Kingdom",2493.11,8.74,35.00,0.34%,494056
+646,"MSA","MSA Safety Inc","Industrials","Security & Protection Services","USA",6871.66,25.00,177.22,-1.24%,205274
+647,"MSGE","Madison Square Garden Entertainment Corp","Consumer Cyclical","Leisure","USA",2633.60,51.70,55.71,-1.50%,258817
+648,"MSGS","Madison Square Garden Sports Corp","Communication Services","Entertainment","USA",7514.11,,312.18,-0.04%,169954
+649,"MSM","MSC Industrial Direct Co., Inc","Industrials","Industrial Distribution","USA",5090.94,24.92,91.23,1.07%,513082
+650,"MTCH","Match Group Inc","Communication Services","Internet Content & Information","USA",7163.12,12.89,30.79,2.29%,5372039
+651,"MTDR","Matador Resources Co","Energy","Oil & Gas E&P","USA",7098.40,9.38,57.13,1.73%,1168476
+652,"MTG","MGIC Investment Corp","Financial","Insurance - Specialty","USA",5597.39,8.29,26.04,-0.27%,2039586
+653,"MTH","Meritage Homes Corp","Consumer Cyclical","Residential Construction","USA",4213.79,9.96,63.08,0.48%,1109014
+654,"MTN","Vail Resorts Inc","Consumer Cyclical","Resorts & Casinos","USA",4694.30,21.49,131.66,-2.69%,743248
+655,"MTRN","Materion Corp","Basic Materials","Other Industrial Metals & Mining","USA",2819.92,37.95,135.98,-1.75%,253199
+656,"MTX","Minerals Technologies, Inc","Basic Materials","Specialty Chemicals","USA",2123.72,,68.40,0.78%,177258
+657,"MUR","Murphy Oil Corp","Energy","Oil & Gas E&P","USA",5257.59,51.08,36.81,6.02%,6362171
+658,"MUSA","Murphy USA Inc","Consumer Cyclical","Specialty Retail","USA",8465.46,18.81,456.72,0.29%,334969
+659,"MWA","Mueller Water Products Inc","Industrials","Specialty Industrial Machinery","USA",4338.13,21.88,27.74,0.43%,1264313
+660,"MWH","SOLV Energy Inc","Industrials","Infrastructure Operations","USA",2427.34,,27.85,-2.40%,308469
+661,"MYRG","MYR Group Inc","Industrials","Engineering & Construction","USA",4057.98,34.64,261.13,1.33%,210133
+662,"MZTI","Marzetti Co","Consumer Defensive","Packaged Foods","USA",4153.21,23.18,151.45,-0.33%,207803
+663,"NAD","Nuveen Quality Municipal Income Fund","Financial","Closed-End Fund - Debt","USA",2792.23,42.71,11.96,-0.25%,902038
+664,"NAMS","NewAmsterdam Pharma Company NV","Healthcare","Biotechnology","Netherlands",3290.60,,28.62,-4.02%,965085
+665,"NATL","NCR Atleos Corp","Technology","Software - Application","USA",3246.53,19.53,44.07,-0.54%,400590
+666,"NAVN","Navan Inc","Technology","Software - Application","USA",2212.93,,8.90,0.23%,1141641
+667,"NBTB","NBT Bancorp. Inc","Financial","Banks - Regional","USA",2164.92,12.53,41.47,0.53%,199582
+668,"NCLH","Norwegian Cruise Line Holdings Ltd","Consumer Cyclical","Travel Services","USA",8596.15,22.14,18.87,-3.03%,19604109
+669,"NE","Noble Corp Plc","Energy","Oil & Gas Drilling","USA",7370.84,34.50,46.30,1.31%,1920119
+670,"NEA","Nuveen AMT-Free Quality Municipal Income Fund","Financial","Closed-End Fund - Debt","USA",3462.91,41.36,11.58,-0.34%,874951
+671,"NEU","NewMarket Corp","Basic Materials","Specialty Chemicals","USA",5494.26,13.17,584.66,-0.58%,148669
+672,"NFG","National Fuel Gas Co","Energy","Oil & Gas Integrated","USA",9151.04,13.43,96.30,2.73%,812275
+673,"NG","Novagold Resources Inc","Basic Materials","Gold","USA",4559.68,,10.41,-7.38%,3610520
+674,"NGD","New Gold Inc","Basic Materials","Gold","Canada",7901.47,31.95,9.98,-6.90%,13983388
+675,"NGVT","Ingevity Corp","Basic Materials","Specialty Chemicals","USA",2280.21,,64.61,0.84%,557985
+676,"NHI","National Health Investors, Inc","Real Estate","REIT - Healthcare Facilities","USA",4121.58,28.23,85.17,-0.40%,224137
+677,"NIC","Nicolet Bankshares Inc","Financial","Banks - Regional","USA",3188.15,15.24,149.21,-0.28%,157050
+678,"NICE","NICE Ltd ADR","Technology","Software - Application","Israel",7247.66,12.04,117.39,-0.82%,393966
+679,"NIQ","NIQ Global Intelligence plc","Financial","Closed-End Fund - Debt","USA",3426.20,,11.61,-0.94%,872778
+680,"NJR","New Jersey Resources Corporation","Utilities","Utilities - Regulated Gas","USA",5552.54,17.03,55.06,1.36%,346444
+681,"NKTR","Nektar Therapeutics","Healthcare","Biotechnology","USA",2049.50,,73.25,4.11%,1364377
+682,"NMIH","NMI Holdings Inc","Financial","Insurance - Specialty","USA",2836.78,7.58,37.31,0.48%,355241
+683,"NMRK","Newmark Group Inc","Real Estate","Real Estate Services","USA",2617.16,20.75,14.19,2.38%,1532094
+684,"NN","NextNav Inc","Technology","Software - Infrastructure","USA",2294.79,,17.02,0.47%,707567
+685,"NNI","Nelnet Inc","Financial","Credit Services","USA",4658.00,11.23,129.84,-0.10%,175706
+686,"NNN","NNN REIT Inc","Real Estate","REIT - Retail","USA",8549.17,21.74,45.01,0.13%,1061974
+687,"NOG","Northern Oil and Gas Inc","Energy","Oil & Gas E&P","USA",2676.58,82.22,27.51,-0.36%,2576923
+688,"NOV","NOV Inc","Energy","Oil & Gas Equipment & Services","USA",6642.26,48.92,18.43,-1.55%,4469233
+689,"NOVT","Novanta Inc","Technology","Scientific & Technical Instruments","USA",4166.44,80.03,116.76,-2.33%,429892
+690,"NP","Neptune Insurance Holdings Inc","Financial","Insurance Brokers","USA",3021.42,96.26,21.87,20.23%,928612
+691,"NPO","Enpro Inc","Industrials","Specialty Industrial Machinery","USA",5114.61,126.94,240.99,-1.42%,296427
+692,"NSA","National Storage Affiliates Trust","Real Estate","REIT - Industrial","USA",4152.24,44.55,30.94,-0.06%,1851674
+693,"NSIT","Insight Enterprises Inc","Technology","Electronics & Computer Distribution","USA",2506.38,16.28,80.86,-1.03%,372060
+694,"NTB","Bank of N T Butterfield & Son Ltd","Financial","Banks - Diversified","Bermuda",2018.99,9.23,50.54,-0.41%,176131
+695,"NTCT","Netscout Systems Inc","Technology","Software - Infrastructure","USA",2165.17,23.00,29.98,-0.27%,332678
+696,"NTSK","Netskope Inc","Technology","Software - Infrastructure","USA",3206.30,,9.74,1.99%,10909384
+697,"NTST","Netstreit Corp","Real Estate","REIT - Retail","USA",2230.89,243.80,20.26,0.35%,1209550
+698,"NUVL","Nuvalent Inc","Healthcare","Biotechnology","USA",7698.96,,97.93,-0.07%,752440
+699,"NVG","Nuveen AMT-Free Municipal Credit Income Fund","Financial","Closed-End Fund - Debt","USA",2714.57,47.07,12.71,-0.63%,437550
+700,"NVST","Envista Holdings Corp","Healthcare","Medical Instruments & Supplies","USA",4032.97,89.52,24.61,-3.26%,3279990
+701,"NVTS","Navitas Semiconductor Corp","Technology","Semiconductors","USA",2331.01,,10.10,1.20%,21758358
+702,"NWE","NorthWestern Energy Group Inc","Utilities","Utilities - Regulated Electric","USA",4203.97,23.25,68.42,1.74%,545867
+703,"NWN","Northwest Natural Holding Co","Utilities","Utilities - Regulated Gas","USA",2184.60,18.89,52.56,1.19%,287658
+704,"NXE","NexGen Energy Ltd","Energy","Uranium","Canada",7998.95,,12.10,-2.89%,9557079
+705,"NXST","Nexstar Media Group Inc","Communication Services","Broadcasting","USA",7084.92,79.86,233.61,-2.31%,278699
+706,"NZF","Nuveen Municipal Credit Income Fund","Financial","Closed-End Fund - Debt","USA",2423.55,41.70,12.51,-0.71%,328788
+707,"OBDC","Blue Owl Capital Corp","Financial","Asset Management","USA",5468.96,8.80,10.95,-0.36%,5884243
+708,"OC","Owens Corning","Industrials","Building Products & Equipment","USA",8557.59,,106.46,3.31%,1705382
+709,"OGE","Oge Energy Corp","Utilities","Utilities - Regulated Electric","USA",9972.62,20.81,48.35,1.02%,1284742
+710,"OGS","ONE Gas Inc","Utilities","Utilities - Regulated Gas","USA",5484.97,20.03,87.49,0.69%,425055
+711,"OII","Oceaneering International, Inc","Energy","Oil & Gas Equipment & Services","USA",3307.82,9.51,33.28,-6.09%,1554143
+712,"OKLO","Oklo Inc","Utilities","Utilities - Independent Power Producers","USA",9120.14,,58.37,-2.05%,5841005
+713,"OLED","Universal Display Corp","Technology","Electronic Components","USA",4430.54,18.54,94.07,-0.68%,671718
+714,"OLLI","Ollies Bargain Outlet Holdings Inc","Consumer Defensive","Discount Stores","USA",6700.58,28.02,109.25,4.18%,2066110
+715,"OLN","Olin Corp","Basic Materials","Chemicals","USA",2810.24,,24.73,-4.92%,2856956
+716,"OMF","OneMain Holdings Inc","Financial","Credit Services","USA",6098.94,7.93,52.06,-1.20%,1176502
+717,"ONB","Old National Bancorp","Financial","Banks - Regional","USA",8381.87,12.11,21.51,-0.46%,3105336
+718,"ONDS","Ondas Inc","Technology","Communication Equipment","USA",4573.95,,10.16,-1.65%,73311730
+719,"ONTO","Onto Innovation Inc","Technology","Semiconductor Equipment & Materials","USA",9420.09,68.26,189.53,2.68%,664172
+720,"OPCH","Option Care Health Inc","Healthcare","Medical Care Facilities","USA",4582.36,23.03,29.29,-0.34%,1319550
+721,"OPEN","Opendoor Technologies Inc","Real Estate","Real Estate Services","USA",4743.71,,4.95,2.27%,43498892
+722,"OPLN","Openlane Inc","Consumer Cyclical","Auto & Truck Dealerships","USA",2942.31,,27.68,0.36%,1177152
+723,"OR","OR Royalties Inc","Basic Materials","Gold","Canada",7562.28,37.03,40.33,-4.09%,1732693
+724,"ORA","Ormat Technologies Inc","Utilities","Utilities - Renewable","USA",6716.12,54.64,110.38,0.29%,349709
+725,"ORI","Old Republic International Corp","Financial","Insurance - Property & Casualty","USA",9853.79,10.75,40.10,0.25%,1532575
+726,"ORLA","Orla Mining Ltd","Basic Materials","Gold","Canada",5547.17,127.30,16.32,-4.73%,2171427
+727,"OS","OneStream Inc","Technology","Software - Infrastructure","USA",5932.66,,23.57,-0.13%,2263683
+728,"OSCR","Oscar Health Inc","Healthcare","Healthcare Plans","USA",3939.21,,13.23,1.77%,4873457
+729,"OSIS","OSI Systems, Inc","Technology","Electronic Components","USA",4462.74,30.72,270.92,-1.66%,172526
+730,"OSK","Oshkosh Corp","Industrials","Farm & Heavy Construction Machinery","USA",9204.66,14.69,147.16,-1.80%,492408
+731,"OSW","OneSpaWorld Holdings Limited","Consumer Cyclical","Leisure","Bahamas",2068.59,29.53,20.39,-0.63%,690100
+732,"OTEX","Open Text Corp","Technology","Software - Application","Canada",5758.79,13.49,22.98,-1.58%,2232896
+733,"OTF","Blue Owl Technology Finance Corp","Financial","Asset Management","USA",5458.32,6.87,11.73,3.08%,3078014
+734,"OTTR","Otter Tail Corporation","Industrials","Conglomerates","USA",3678.90,13.39,87.69,2.79%,245711
+735,"OUT","Outfront Media Inc","Real Estate","REIT - Specialty","USA",4702.30,33.75,26.71,-0.78%,1489771
+736,"OZK","Bank OZK","Financial","Banks - Regional","USA",4922.94,7.03,43.40,-1.00%,933697
+737,"PACS","PACS Group Inc","Healthcare","Medical Care Facilities","USA",5475.63,29.57,34.84,3.41%,525543
+738,"PAG","Penske Automotive Group Inc","Consumer Cyclical","Auto & Truck Dealerships","USA",9596.37,10.82,145.93,-0.86%,230038
+739,"PAGS","PagSeguro Digital Ltd","Technology","Software - Infrastructure","Brazil",2726.50,7.35,9.37,-0.32%,4023327
+740,"PAHC","Phibro Animal Health Corp","Healthcare","Drug Manufacturers - Specialty & Generic","USA",2007.73,21.93,49.47,0.96%,226509
+741,"PAM","Pampa Energia SA ADR","Industrials","Conglomerates","Argentina",4406.41,11.07,81.03,-1.56%,170304
+742,"PARR","Par Pacific Holdings Inc","Energy","Oil & Gas Refining & Marketing","USA",2637.36,7.38,53.82,1.28%,1242149
+743,"PATH","UiPath Inc","Technology","Software - Infrastructure","USA",6192.40,22.17,11.58,1.85%,49122540
+744,"PATK","Patrick Industries, Inc","Consumer Cyclical","Recreational Vehicles","USA",3799.06,29.29,114.31,1.03%,286262
+745,"PAY","Paymentus Holdings Inc","Technology","Software - Infrastructure","USA",3066.20,47.05,24.39,1.12%,666629
+746,"PAYC","Paycom Software Inc","Technology","Software - Application","USA",6822.92,15.54,125.71,-0.72%,1085531
+747,"PB","Prosperity Bancshares Inc","Financial","Banks - Regional","USA",6529.66,11.24,64.28,-1.65%,1453104
+748,"PBF","PBF Energy Inc","Energy","Oil & Gas Refining & Marketing","USA",5086.32,,43.50,1.35%,3346546
+749,"PBH","Prestige Consumer Healthcare Inc","Healthcare","Drug Manufacturers - Specialty & Generic","USA",2907.74,16.25,61.45,-0.73%,360786
+750,"PCOR","Procore Technologies Inc","Technology","Software - Application","USA",8578.24,,57.15,0.21%,1942183
+751,"PCTY","Paylocity Holding Corp","Technology","Software - Application","USA",5893.57,25.73,109.39,-1.02%,707164
+752,"PCVX","Vaxcyte Inc","Healthcare","Biotechnology","USA",7855.17,,54.58,-2.90%,1394796
+753,"PDI","PIMCO Dynamic Income Fund","Financial","Closed-End Fund - Debt","USA",7638.15,7.43,17.47,-0.68%,3142844
+754,"PECO","Phillips Edison & Company Inc","Real Estate","REIT - Retail","USA",5286.54,46.52,38.17,-0.29%,557992
+755,"PEGA","Pegasystems Inc","Technology","Software - Application","USA",7175.91,19.96,42.45,-0.12%,5331354
+756,"PFS","Provident Financial Services Inc","Financial","Banks - Regional","USA",2660.98,9.13,20.36,-0.20%,639534
+757,"PFSI","PennyMac Financial Services Inc","Financial","Mortgage Finance","USA",4389.40,9.04,84.14,-0.56%,542242
+758,"PHIN","PHINIA Inc","Consumer Cyclical","Auto Parts","USA",2389.79,19.39,63.03,-1.68%,402916
+759,"PI","Impinj Inc","Technology","Semiconductors","USA",2773.30,,91.74,0.43%,602051
+760,"PII","Polaris Inc","Consumer Cyclical","Recreational Vehicles","USA",2858.91,,50.43,-1.75%,951188
+761,"PIPR","Piper Sandler Co's","Financial","Capital Markets","USA",5031.27,17.87,282.52,0.95%,138373
+762,"PJT","PJT Partners Inc","Financial","Capital Markets","USA",3123.35,31.14,129.22,0.13%,328914
+763,"PK","Park Hotels & Resorts Inc","Real Estate","REIT - Hotel & Motel","USA",2052.25,,10.19,-1.74%,2782285
+764,"PL","Planet Labs PBC","Industrials","Aerospace & Defense","USA",8397.71,,24.79,-0.72%,7464749
+765,"PLMR","Palomar Holdings Inc","Financial","Insurance - Property & Casualty","USA",3207.84,16.74,120.19,0.33%,153403
+766,"PLNT","Planet Fitness Inc","Consumer Cyclical","Leisure","USA",5890.63,28.12,73.62,-1.52%,2336176
+767,"PLUG","Plug Power Inc","Industrials","Electrical Equipment & Parts","USA",2997.00,,2.15,-2.71%,62734103
+768,"PLXS","Plexus Corp","Technology","Electronic Components","USA",5109.25,29.66,190.74,0.52%,236178
+769,"PONY","Pony AI Inc. ADR","Technology","Information Technology Services","China",4032.03,,11.44,-6.92%,8786365
+770,"POOL","Pool Corporation","Industrials","Industrial Distribution","USA",7601.83,19.08,206.64,1.23%,623006
+771,"POR","Portland General Electric Co","Utilities","Utilities - Regulated Electric","USA",6775.61,19.39,53.60,1.61%,1024983
+772,"POST","Post Holdings Inc","Consumer Defensive","Packaged Foods","USA",4721.34,18.18,98.45,0.72%,773095
+773,"POWI","Power Integrations Inc","Technology","Semiconductors","USA",2633.66,120.89,47.45,2.37%,817213
+774,"POWL","Powell Industries, Inc","Industrials","Electrical Equipment & Parts","USA",6104.05,32.66,502.71,-2.11%,180603
+775,"PPC","Pilgrim's Pride Corp","Consumer Defensive","Packaged Foods","USA",8605.16,7.98,36.22,0.10%,875239
+776,"PPTA","Perpetua Resources Corp","Basic Materials","Other Precious Metals & Mining","USA",3626.93,,29.76,-4.95%,1635882
+777,"PRAX","Praxis Precision Medicines Inc","Healthcare","Biotechnology","USA",8186.75,,293.95,-3.11%,500870
+778,"PRDO","Perdoceo Education Corporation","Consumer Defensive","Education & Training Services","USA",2235.48,14.80,35.78,2.35%,760572
+779,"PRI","Primerica Inc","Financial","Insurance - Life","USA",7886.80,10.86,249.11,0.02%,152556
+780,"PRIM","Primoris Services Corp","Industrials","Engineering & Construction","USA",7216.54,26.60,133.50,0.94%,1066715
+781,"PRM","Perimeter Solutions Inc","Basic Materials","Specialty Chemicals","USA",3401.26,,22.76,-1.26%,744652
+782,"PRMB","Primo Brands Corp","Consumer Defensive","Beverages - Non-Alcoholic","USA",7542.71,131.39,20.76,-0.43%,2978088
+783,"PRVA","Privia Health Group Inc","Healthcare","Health Information Services","USA",2681.56,122.21,21.68,-0.23%,641529
+784,"PSMT","Pricesmart Inc","Consumer Defensive","Discount Stores","USA",4584.41,30.38,148.77,1.34%,159669
+785,"PSN","Parsons Corp","Technology","Information Technology Services","USA",5815.41,25.00,54.95,-3.27%,1463144
+786,"PSO","Pearson plc ADR","Communication Services","Publishing","United Kingdom",8158.03,19.74,13.07,0.08%,1004737
+787,"PTCT","PTC Therapeutics Inc","Healthcare","Biotechnology","USA",5338.14,8.34,64.49,1.78%,605687
+788,"PTEN","Patterson-UTI Energy Inc","Energy","Oil & Gas Drilling","USA",3905.83,,10.29,4.47%,16893085
+789,"PTGX","Protagonist Therapeutics Inc","Healthcare","Biotechnology","USA",5893.37,,92.36,-3.21%,896180
+790,"PTRN","Pattern Group Inc","Technology","Software - Application","USA",2000.15,,11.35,-4.94%,735170
+791,"PTY","PIMCO Corporate & Income Opportunity Fund","Financial","Closed-End Fund - Debt","USA",2550.14,8.41,12.03,-1.39%,1367447
+792,"PVH","PVH Corp","Consumer Cyclical","Apparel Manufacturing","USA",2788.01,9.13,60.87,-0.57%,801147
+793,"QBTS","D-Wave Quantum Inc","Technology","Computer Hardware","USA",6491.98,,17.55,-1.57%,20995869
+794,"QGEN","Qiagen NV","Healthcare","Diagnostics & Research","Netherlands",8396.08,19.86,40.60,-1.26%,1983838
+795,"QLYS","Qualys Inc","Technology","Software - Infrastructure","USA",3557.25,18.31,99.71,2.80%,599863
+796,"QRVO","Qorvo Inc","Technology","Semiconductors","USA",7242.17,21.49,78.12,-0.83%,870695
+797,"QS","QuantumScape Corp","Consumer Cyclical","Auto Parts","USA",4122.68,,6.73,-2.46%,8730009
+798,"QTWO","Q2 Holdings Inc","Technology","Software - Application","USA",3014.13,61.86,48.30,-0.92%,755676
+799,"R","Ryder System, Inc","Industrials","Rental & Leasing Services","USA",7409.16,15.87,187.92,0.49%,302460
+800,"RAL","Ralliant Corp","Technology","Electronic Components","USA",4730.72,,42.33,-1.44%,1643471
+801,"RARE","Ultragenyx Pharmaceutical Inc","Healthcare","Biotechnology","USA",2062.08,,21.34,-1.70%,2543334
+802,"RCUS","Arcus Biosciences Inc","Healthcare","Biotechnology","USA",2753.93,,21.98,-3.17%,1173180
+803,"RDN","Radian Group, Inc","Financial","Insurance - Specialty","USA",4495.63,7.95,32.99,-0.39%,1306040
+804,"RDNT","Radnet Inc","Healthcare","Diagnostics & Research","USA",4818.94,,62.09,3.86%,1154421
+805,"RELY","Remitly Global Inc","Technology","Software - Infrastructure","USA",3212.48,48.61,15.25,-1.80%,3692484
+806,"REXR","Rexford Industrial Realty Inc","Real Estate","REIT - Industrial","USA",7991.66,40.28,34.47,-1.12%,3787450
+807,"REYN","Reynolds Consumer Products Inc","Consumer Cyclical","Packaging & Containers","USA",4516.08,15.01,21.47,0.05%,859058
+808,"REZI","Resideo Technologies Inc","Industrials","Industrial Distribution","USA",5075.85,,33.56,0.03%,957578
+809,"RGEN","Repligen Corp","Healthcare","Medical Instruments & Supplies","USA",6433.01,132.11,114.20,0.39%,1115201
+810,"RGTI","Rigetti Computing Inc","Technology","Computer Hardware","USA",5370.87,,16.17,0.62%,26888625
+811,"RH","RH","Consumer Cyclical","Specialty Retail","USA",2410.49,23.14,128.37,-2.27%,1103452
+812,"RHI","Robert Half Inc","Industrials","Staffing & Employment Services","USA",2262.58,16.86,22.37,-1.71%,2682757
+813,"RHP","Ryman Hospitality Properties Inc","Real Estate","REIT - Hotel & Motel","USA",5662.35,24.16,89.87,-2.32%,435689
+814,"RIG","Transocean Ltd","Energy","Oil & Gas Drilling","Switzerland",7014.12,,6.36,1.19%,36541066
+815,"RIOT","Riot Platforms Inc","Financial","Capital Markets","USA",5322.93,,14.04,-3.17%,19874712
+816,"RITM","Rithm Capital Corporation","Real Estate","REIT - Mortgage","USA",5253.18,9.06,9.45,-1.56%,8772953
+817,"RLI","RLI Corp","Financial","Insurance - Property & Casualty","USA",5683.42,14.16,61.83,-0.26%,859855
+818,"RLX","RLX Technology Inc ADR","Consumer Defensive","Tobacco","China",2046.89,22.48,2.25,-0.88%,1692727
+819,"RNG","RingCentral Inc","Technology","Software - Application","USA",3176.28,78.40,37.78,-0.74%,2010181
+820,"RNST","Renasant Corp","Financial","Banks - Regional","USA",3357.11,16.85,35.66,-1.14%,667566
+821,"ROAD","Construction Partners Inc","Industrials","Engineering & Construction","USA",6441.06,52.10,113.97,-2.10%,333307
+822,"RRR","Red Rock Resorts Inc","Consumer Cyclical","Resorts & Casinos","USA",6074.75,18.52,57.84,0.23%,485098
+823,"RSI","Rush Street Interactive Inc","Consumer Cyclical","Gambling","USA",4705.11,71.61,20.25,-2.78%,1870653
+824,"RUM","Rumble Inc","Communication Services","Internet Content & Information","USA",2319.78,,5.33,-2.20%,1339201
+825,"RUN","Sunrun Inc","Technology","Solar","USA",2846.74,7.07,12.14,1.42%,8567274
+826,"RUSHA","Rush Enterprises Inc","Consumer Cyclical","Auto & Truck Dealerships","USA",4716.95,18.88,61.74,0.24%,453426
+827,"RVT","Royce Small Cap Trust Inc","Financial","Closed-End Fund - Equity","USA",2012.88,12.19,16.45,-1.73%,214492
+828,"RVTY","Revvity Inc","Healthcare","Diagnostics & Research","USA",9566.67,40.96,85.62,1.02%,1408005
+829,"RYAN","Ryan Specialty Holdings Inc","Financial","Insurance - Specialty","USA",9558.38,93.49,36.18,0.03%,1173077
+830,"RYN","Rayonier Inc","Real Estate","REIT - Specialty","USA",6134.33,45.81,20.18,0.60%,3883546
+831,"RYTM","Rhythm Pharmaceuticals Inc","Healthcare","Biotechnology","USA",5966.75,,87.38,-4.14%,1620714
+832,"S","SentinelOne Inc","Technology","Software - Infrastructure","USA",4934.90,,14.52,5.37%,18194222
+833,"SA","Seabridge Gold, Inc","Basic Materials","Gold","Canada",3271.37,,31.35,-3.89%,1606442
+834,"SAH","Sonic Automotive, Inc","Consumer Cyclical","Auto & Truck Dealerships","USA",2010.86,17.62,59.89,-1.32%,371754
+835,"SAIA","Saia Inc","Industrials","Trucking","USA",8560.92,33.72,321.00,1.66%,556917
+836,"SAIC","Science Applications International Corp","Technology","Information Technology Services","USA",4147.66,11.73,91.91,0.40%,784618
+837,"SAIL","Sailpoint Inc","Technology","Software - Infrastructure","USA",8677.12,,15.45,-0.19%,1623308
+838,"SAM","Boston Beer Co., Inc","Consumer Defensive","Beverages - Brewers","USA",2418.34,23.76,231.50,1.00%,191946
+839,"SANM","Sanmina Corp","Technology","Electronic Components","USA",6836.53,29.95,125.20,-0.91%,892667
+840,"SARO","StandardAero Inc","Industrials","Aerospace & Defense","USA",8668.98,31.41,26.06,-1.99%,4929848
+841,"SBCF","Seacoast Banking Corp. Of Florida","Financial","Banks - Regional","USA",2920.15,18.64,29.81,-1.16%,695326
+842,"SBLK","Star Bulk Carriers Corp","Industrials","Marine Shipping","Greece",2486.43,29.66,21.84,-1.40%,1238371
+843,"SBRA","Sabra Healthcare REIT Inc","Real Estate","REIT - Healthcare Facilities","USA",5199.24,32.22,20.62,-0.77%,2953973
+844,"SBSW","Sibanye Stillwater Limited ADR","Basic Materials","Other Precious Metals & Mining","South Africa",8895.03,,12.57,-7.78%,7808033
+845,"SDRL","Seadrill Ltd","Energy","Oil & Gas Drilling","Bermuda",2668.86,,42.90,1.90%,780106
+846,"SEDG","Solaredge Technologies Inc","Technology","Solar","Israel",2260.11,,37.44,6.39%,1987208
+847,"SEE","Sealed Air Corp","Consumer Cyclical","Packaging & Containers","USA",6166.11,13.98,41.84,-0.31%,2641662
+848,"SEI","Solaris Energy Infrastructure Inc","Energy","Oil & Gas Equipment & Services","USA",3562.08,76.40,52.00,-2.49%,1631444
+849,"SEIC","SEI Investments Co","Financial","Asset Management","USA",9766.40,14.19,79.89,0.93%,1091908
+850,"SEM","Select Medical Holdings Corporation","Healthcare","Medical Care Facilities","USA",2015.30,14.03,16.25,0.06%,2687368
+851,"SEZL","Sezzle Inc","Financial","Credit Services","USA",2241.39,17.76,66.31,1.56%,514774
+852,"SFBS","ServisFirst Bancshares Inc","Financial","Banks - Regional","USA",3995.86,14.46,73.13,1.78%,443248
+853,"SFD","Smithfield Foods, Inc","Consumer Defensive","Packaged Foods","USA",9206.70,10.63,23.42,0.21%,664932
+854,"SFM","Sprouts Farmers Market Inc","Consumer Defensive","Grocery Stores","USA",7760.94,15.49,82.06,4.08%,2506352
+855,"SFNC","Simmons First National Corp","Financial","Banks - Regional","USA",2695.99,,18.61,-1.53%,1093677
+856,"SGHC","Super Group (SGHC) Limited","Consumer Cyclical","Gambling","United Kingdom",5380.36,24.71,10.73,-1.38%,2039135
+857,"SHAK","Shake Shack Inc","Consumer Cyclical","Restaurants","USA",3710.83,79.54,86.92,0.13%,1623677
+858,"SHC","Sotera Health Co","Healthcare","Diagnostics & Research","USA",3815.12,49.48,13.41,0.71%,3798160
+859,"SHOO","Steven Madden Ltd","Consumer Cyclical","Footwear & Accessories","USA",2287.24,50.35,31.37,-3.80%,1293599
+860,"SIG","Signet Jewelers Ltd","Consumer Cyclical","Luxury Goods","Bermuda",3344.67,24.57,82.21,-1.43%,1057933
+861,"SIGI","Selective Insurance Group Inc","Financial","Insurance - Property & Casualty","USA",4590.86,10.20,76.41,-0.21%,622950
+862,"SII","Sprott Inc","Financial","Asset Management","Canada",3808.41,56.61,147.67,-5.77%,348491
+863,"SIMO","Silicon Motion Technology Corp ADR","Technology","Semiconductors","Hong Kong",4188.37,33.98,123.26,2.62%,312283
+864,"SIRI","Sirius XM Holdings Inc","Communication Services","Entertainment","USA",7361.66,9.76,21.99,-1.08%,3140246
+865,"SITE","SiteOne Landscape Supply Inc","Industrials","Industrial Distribution","USA",5771.26,38.56,129.81,-0.42%,520993
+866,"SITM","SiTime Corp","Technology","Semiconductors","USA",8577.19,,326.13,1.01%,261543
+867,"SKE","Skeena Resources Ltd","Basic Materials","Other Industrial Metals & Mining","Canada",3771.95,,31.15,-4.97%,930625
+868,"SKT","Tanger Inc","Real Estate","REIT - Retail","USA",4024.78,35.42,35.14,-0.79%,732634
+869,"SKWD","Skyward Specialty Insurance Group Inc","Financial","Insurance - Property & Casualty","USA",2008.58,11.11,45.17,-0.13%,570971
+870,"SKY","Champion Homes Inc","Consumer Cyclical","Residential Construction","USA",4285.35,20.68,77.49,-0.23%,492354
+871,"SKYW","Skywest Inc","Industrials","Airlines","USA",3617.21,8.65,89.52,0.01%,435329
+872,"SLAB","Silicon Laboratories Inc","Technology","Semiconductors","USA",6690.05,,203.00,0.46%,391911
+873,"SLDE","Slide Insurance Holdings Inc","Financial","Insurance - Property & Casualty","USA",2194.24,1.53,17.65,2.20%,1983297
+874,"SLG","SL Green Realty Corp","Real Estate","REIT - Office","USA",2824.58,,37.21,-1.77%,1083973
+875,"SLGN","Silgan Holdings Inc","Consumer Cyclical","Packaging & Containers","USA",4388.49,15.44,41.62,1.51%,938671
+876,"SLM","SLM Corp","Financial","Credit Services","USA",3911.57,5.71,19.74,-3.14%,4673861
+877,"SM","SM Energy Co","Energy","Oil & Gas E&P","USA",6385.64,4.75,26.79,5.14%,5933151
+878,"SMG","Scotts Miracle-Gro Company","Basic Materials","Agricultural Inputs","USA",3538.10,41.22,60.96,2.20%,1098507
+879,"SMR","NuScale Power Corporation","Industrials","Specialty Industrial Machinery","USA",3988.59,,11.80,0.34%,15198769
+880,"SMTC","Semtech Corp","Technology","Semiconductors","USA",7852.02,278.93,84.85,1.73%,1623934
+881,"SNAP","Snap Inc","Communication Services","Internet Content & Information","USA",7701.62,,4.57,-1.83%,45615716
+882,"SNDR","Schneider National Inc","Industrials","Trucking","USA",4157.23,40.21,23.69,-0.25%,1115522
+883,"SNDX","Syndax Pharmaceuticals Inc","Healthcare","Biotechnology","USA",2072.71,,23.50,-2.04%,1677706
+884,"SNEX","StoneX Group Inc","Financial","Capital Markets","USA",5433.63,15.44,103.57,-1.47%,323644
+885,"SOBO","South Bow Corp","Energy","Oil & Gas Midstream","Canada",6974.29,17.16,33.49,1.30%,1364132
+886,"SOC","Sable Offshore Corp","Energy","Oil & Gas Drilling","USA",2478.12,,16.83,-3.55%,8959195
+887,"SON","Sonoco Products Co","Consumer Cyclical","Packaging & Containers","USA",5259.70,13.43,53.32,1.10%,858955
+888,"SOUN","SoundHound AI Inc","Technology","Software - Application","USA",3086.54,,7.30,-2.28%,29567989
+889,"SPHR","Sphere Entertainment Co","Communication Services","Entertainment","USA",3752.57,,105.70,-3.81%,1105660
+890,"SPNT","SiriusPoint Ltd","Financial","Insurance - Reinsurance","Bermuda",2381.92,5.53,20.36,0.79%,569839
+891,"SPSC","SPS Commerce Inc","Technology","Software - Application","USA",2264.02,24.65,60.55,-0.26%,571921
+892,"SPXC","SPX Technologies Inc","Industrials","Building Products & Equipment","USA",9947.95,39.58,199.45,-1.58%,238565
+893,"SR","Spire Inc","Utilities","Utilities - Regulated Gas","USA",5481.80,20.14,92.76,1.69%,332835
+894,"SRAD","Sportradar Group AG","Technology","Software - Application","Switzerland",5802.36,52.98,18.66,-2.41%,2864627
+895,"SRRK","Scholar Rock Holding Corp","Healthcare","Biotechnology","USA",4596.47,,40.01,-4.28%,1084921
+896,"SSB","SouthState Bank Corp","Financial","Banks - Regional","USA",8868.35,11.48,90.43,-0.02%,844533
+897,"SSD","Simpson Manufacturing Co., Inc","Basic Materials","Lumber & Wood Production","USA",7367.91,21.55,177.96,-0.22%,313166
+898,"SSL","Sasol Ltd ADR","Basic Materials","Specialty Chemicals","South Africa",7172.01,55.77,11.31,6.70%,5293046
+899,"SSRM","SSR Mining Inc","Basic Materials","Gold","USA",5729.84,15.42,28.18,-4.38%,3330122
+900,"ST","Sensata Technologies Holding Plc","Technology","Scientific & Technical Instruments","USA",4996.55,171.95,34.27,-0.03%,1772367
+901,"STAG","STAG Industrial Inc","Real Estate","REIT - Industrial","USA",7265.11,26.05,38.03,-0.03%,1054946
+902,"STEP","StepStone Group Inc","Financial","Asset Management","USA",5373.00,,45.09,4.06%,910366
+903,"STNE","StoneCo Ltd","Technology","Software - Infrastructure","Cayman Islands",3740.55,9.06,13.81,-0.22%,5267496
+904,"STNG","Scorpio Tankers Inc","Energy","Oil & Gas Midstream","Monaco",3436.53,9.39,66.39,-1.53%,1675652
+905,"STUB","Stubhub Holdings Inc","Communication Services","Internet Content & Information","USA",2682.57,,7.52,-4.69%,3378091
+906,"STVN","Stevanato Group Spa","Healthcare","Medical Instruments & Supplies","Italy",4092.33,25.72,14.99,2.39%,494638
+907,"STWD","Starwood Property Trust Inc","Real Estate","REIT - Mortgage","USA",6514.83,15.20,17.58,-0.40%,3402440
+908,"SUNC","SunocoCorp LLC","Energy","Oil & Gas Midstream","USA",3102.88,,60.23,2.00%,561897
+909,"SUPN","Supernus Pharmaceuticals Inc","Healthcare","Drug Manufacturers - Specialty & Generic","USA",2873.90,,49.91,-1.09%,802078
+910,"SVM","Silvercorp Metals Inc","Basic Materials","Silver","Canada",2379.35,,10.80,-6.41%,5955580
+911,"SWKS","Skyworks Solutions, Inc","Technology","Semiconductors","USA",8231.45,21.04,54.74,-0.83%,2709841
+912,"SWX","Southwest Gas Holdings Inc","Utilities","Utilities - Regulated Gas","USA",6360.41,14.48,88.01,0.79%,409809
+913,"SXI","Standex International Corp","Industrials","Specialty Industrial Machinery","USA",3077.67,56.84,253.96,-1.37%,175131
+914,"SXT","Sensient Technologies Corp","Basic Materials","Specialty Chemicals","USA",3789.47,28.23,89.15,-2.71%,265395
+915,"SYNA","Synaptics Inc","Technology","Semiconductors","USA",2860.97,,73.87,-0.66%,615905
+916,"SYRE","Spyre Therapeutics Inc","Healthcare","Biotechnology","USA",3132.97,,39.89,-1.29%,844900
+917,"TAC","Transalta Corp","Utilities","Utilities - Independent Power Producers","Canada",3692.19,,12.44,-2.51%,1003203
+918,"TAL","TAL Education Group ADR","Consumer Defensive","Education & Training Services","China",5098.65,22.86,11.13,2.77%,4100883
+919,"TALO","Talos Energy Inc","Energy","Oil & Gas E&P","USA",2328.87,,13.82,2.14%,2173107
+920,"TAP","Molson Coors Beverage Company","Consumer Defensive","Beverages - Brewers","USA",8667.68,,43.61,-0.18%,2674720
+921,"TARS","Tarsus Pharmaceuticals Inc","Healthcare","Biotechnology","USA",2892.21,,67.96,-0.31%,296389
+922,"TBBB","BBB Foods Inc","Consumer Defensive","Discount Stores","Mexico",3796.49,,33.10,4.20%,1221827
+923,"TBBK","Bancorp Inc","Financial","Banks - Regional","USA",2259.48,10.89,53.55,0.47%,387153
+924,"TCBI","Texas Capital Bancshares, Inc","Financial","Banks - Regional","USA",4087.24,13.61,92.52,0.19%,544180
+925,"TDC","Teradata Corp","Technology","Software - Infrastructure","USA",2450.68,19.72,26.58,-0.67%,1288659
+926,"TDS","Telephone And Data Systems, Inc","Communication Services","Telecom Services","USA",4606.96,,43.38,-0.78%,774348
+927,"TDW","Tidewater Inc","Energy","Oil & Gas Equipment & Services","USA",3805.26,11.50,76.76,0.47%,661978
+928,"TE","T1 Energy Inc","Industrials","Electrical Equipment & Parts","USA",2061.76,,7.62,-1.55%,14259567
+929,"TECH","Bio-Techne Corp","Healthcare","Biotechnology","USA",7955.65,98.91,50.85,-1.20%,2439366
+930,"TEM","Tempus AI Inc","Healthcare","Health Information Services","USA",8935.11,,49.98,0.91%,5008674
+931,"TENB","Tenable Holdings Inc","Technology","Software - Infrastructure","USA",2331.07,,20.29,0.00%,1486751
+932,"TERN","Terns Pharmaceuticals Inc","Healthcare","Biotechnology","USA",4946.46,,46.52,5.15%,4243995
+933,"TEX","Terex Corp","Industrials","Farm & Heavy Construction Machinery","USA",6754.92,17.79,59.41,-1.07%,1210417
+934,"TFII","TFI International Inc","Industrials","Trucking","Canada",8382.59,27.36,102.04,-0.89%,546533
+935,"TFPM","Triple Flag Precious Metals Corp","Basic Materials","Other Precious Metals & Mining","Canada",7413.80,30.59,35.89,-4.27%,1162775
+936,"TFSL","TFS Financial Corporation","Financial","Banks - Regional","USA",3790.51,42.32,13.51,0.37%,1085456
+937,"TFX","Teleflex Incorporated","Healthcare","Medical Instruments & Supplies","USA",4743.60,,107.32,-0.87%,694785
+938,"TGB","Taseko Mines Ltd","Basic Materials","Copper","Canada",2406.10,,6.60,-5.85%,5013409
+939,"TGLS","Tecnoglass Inc","Basic Materials","Building Materials","Colombia",2044.96,13.40,45.73,2.14%,560588
+940,"TGNA","TEGNA Inc","Communication Services","Broadcasting","USA",3286.73,15.03,20.30,0.42%,1746623
+941,"TGS","Transportadora de Gas del Sur ADR","Energy","Oil & Gas Integrated","Argentina",2138.82,14.37,30.77,0.46%,189913
+942,"TGTX","TG Therapeutics Inc","Healthcare","Biotechnology","USA",4464.88,10.07,27.96,3.79%,1892087
+943,"THG","Hanover Insurance Group Inc","Financial","Insurance - Property & Casualty","USA",6094.54,9.54,173.39,-0.51%,257326
+944,"THO","Thor Industries, Inc","Consumer Cyclical","Recreational Vehicles","USA",4330.75,14.61,82.34,0.00%,714359
+945,"TKC","Turkcell Iletisim Hizmetleri A.S. ADR","Communication Services","Telecom Services","Turkey",5352.17,12.62,6.14,-1.05%,843725
+946,"TKR","Timken Co","Industrials","Tools & Accessories","USA",6783.35,23.76,97.55,-2.16%,782863
+947,"TLX","Telix Pharmaceuticals Ltd. ADR","Healthcare","Biotechnology","Australia",2659.89,,7.85,-0.51%,120051
+948,"TMC","TMC the metals company Inc","Basic Materials","Other Industrial Metals & Mining","Canada",2468.55,,5.97,-4.33%,3912471
+949,"TMDX","Transmedics Group Inc","Healthcare","Medical Devices","USA",4235.67,25.42,123.48,1.79%,505445
+950,"TME","Tencent Music Entertainment Group ADR","Communication Services","Internet Content & Information","China",8175.57,14.72,14.19,3.73%,6583871
+951,"TMHC","Taylor Morrison Home Corp","Consumer Cyclical","Residential Construction","USA",5702.95,7.62,59.20,0.58%,1133194
+952,"TNGX","Tango Therapeutics Inc","Healthcare","Biotechnology","USA",2468.52,,17.30,0.87%,4210183
+953,"TNK","Teekay Tankers Ltd","Energy","Oil & Gas Midstream","Bermuda",2189.98,6.28,63.39,-2.43%,520549
+954,"TNL","Travel+Leisure Co","Consumer Cyclical","Travel Services","USA",4276.12,20.03,68.53,-1.86%,542440
+955,"TOWN","Townebank Portsmouth VA","Financial","Banks - Regional","USA",3043.24,14.93,32.99,0.15%,399570
+956,"TPC","Tutor Perini Corp","Industrials","Engineering & Construction","USA",3577.15,44.95,67.76,-2.08%,478465
+957,"TPH","Tri Pointe Homes Inc","Consumer Cyclical","Residential Construction","USA",3941.77,17.04,46.30,0.00%,3112143
+958,"TR","Tootsie Roll Industries, Inc","Consumer Defensive","Confectioners","USA",2917.24,31.81,42.39,2.59%,170919
+959,"TREX","TREX Co., Inc","Industrials","Building Products & Equipment","USA",3964.09,21.12,37.49,0.40%,2011451
+960,"TRMD","Torm Plc","Energy","Oil & Gas Midstream","United Kingdom",2473.84,8.55,24.27,-1.50%,1218290
+961,"TRMK","Trustmark Corp","Financial","Banks - Regional","USA",2404.01,11.03,40.85,-0.75%,318892
+962,"TRN","Trinity Industries, Inc","Industrials","Railroads","USA",2356.07,9.57,29.51,0.07%,492862
+963,"TRNO","Terreno Realty Corp","Real Estate","REIT - Industrial","USA",6477.79,15.97,62.18,0.10%,404532
+964,"TTAM","Titan America SA","Basic Materials","Building Materials","Belgium",2874.21,15.87,15.59,-1.33%,333804
+965,"TTAN","ServiceTitan Inc","Technology","Software - Application","USA",6610.11,,70.80,-6.41%,3284785
+966,"TTC","Toro Co","Industrials","Tools & Accessories","USA",9256.13,28.60,95.49,0.52%,840558
+967,"TTEK","Tetra Tech, Inc","Industrials","Engineering & Construction","USA",8392.79,24.14,32.18,-3.01%,2856087
+968,"TTMI","TTM Technologies Inc","Technology","Electronic Components","USA",9372.62,53.93,90.64,0.11%,1022699
+969,"TVTX","Travere Therapeutics Inc","Healthcare","Biotechnology","USA",2564.31,,27.80,0.91%,742141
+970,"TWST","Twist Bioscience Corp","Healthcare","Diagnostics & Research","USA",2653.57,,43.28,0.60%,770384
+971,"TX","Ternium S.A. ADR","Basic Materials","Steel","Luxembourg",7406.78,12.91,37.73,-1.67%,205786
+972,"TXG","10x Genomics Inc","Healthcare","Health Information Services","USA",2400.47,,18.79,-0.79%,1735644
+973,"TXNM","TXNM Energy Inc","Utilities","Utilities - Regulated Electric","USA",6410.02,40.68,58.85,0.26%,1154563
+974,"U","Unity Software Inc","Technology","Software - Application","USA",8412.95,,19.43,0.00%,11705659
+975,"UA","Under Armour Inc","Consumer Cyclical","Apparel Manufacturing","USA",2719.45,,6.27,-0.32%,2034435
+976,"UAA","Under Armour Inc","Consumer Cyclical","Apparel Manufacturing","USA",2719.45,,6.49,-0.76%,11346656
+977,"UBSI","United Bankshares, Inc","Financial","Banks - Regional","USA",5462.46,12.00,39.18,-0.23%,772107
+978,"UCB","United Community Banks Inc","Financial","Banks - Regional","USA",3581.22,11.43,29.94,-0.80%,803806
+979,"UCTT","Ultra Clean Hldgs Inc","Technology","Semiconductor Equipment & Materials","USA",2500.59,,54.97,-1.94%,820151
+980,"UE","Urban Edge Properties","Real Estate","REIT - Retail","USA",2725.85,27.76,20.54,-0.44%,904992
+981,"UEC","Uranium Energy Corp","Energy","Uranium","USA",6573.86,,13.41,-4.83%,9713082
+982,"UFPI","UFP Industries Inc","Basic Materials","Lumber & Wood Production","USA",5076.56,18.09,89.70,-0.06%,375633
+983,"UGI","UGI Corp","Utilities","Utilities - Regulated Gas","USA",7969.45,13.70,37.13,0.81%,899000
+984,"UGP","Ultrapar Participacoes S.A. ADR","Energy","Oil & Gas Refining & Marketing","Brazil",5338.69,12.37,4.91,-0.81%,2898017
+985,"UHAL","U-Haul Holding Company","Industrials","Rental & Leasing Services","USA",8480.56,96.37,45.87,0.77%,264045
+986,"UHAL-B","U-Haul Holding Company","Industrials","Rental & Leasing Services","USA",8480.56,90.25,42.96,1.30%,283920
+987,"UMBF","UMB Financial Corp","Financial","Banks - Regional","USA",8403.83,12.08,110.38,-1.39%,424959
+988,"UNF","Unifirst Corp","Industrials","Specialty Business Services","USA",4745.28,36.16,273.31,0.16%,524642
+989,"UNFI","United Natural Foods Inc","Consumer Defensive","Food Distribution","USA",2530.93,,41.66,3.27%,782201
+990,"UPST","Upstart Holdings Inc","Financial","Credit Services","USA",2584.90,61.30,26.36,2.33%,6760740
+991,"URBN","Urban Outfitters, Inc","Consumer Cyclical","Apparel Retail","USA",5686.54,12.53,63.41,-0.53%,1742038
+992,"USAC","USA Compression Partners LP","Energy","Oil & Gas Equipment & Services","USA",4005.59,32.62,27.63,1.39%,243565
+993,"USAR","USA Rare Earth Inc","Basic Materials","Other Industrial Metals & Mining","USA",4241.12,,19.46,-1.47%,11460541
+994,"USAS","Americas Gold and Silver Corp","Basic Materials","Other Industrial Metals & Mining","Canada",2013.92,,7.36,-8.34%,4920511
+995,"UTF","Cohen & Steers Infrastructure Fund Inc","Financial","Closed-End Fund - Equity","USA",2879.11,5.51,25.75,0.08%,305137
+996,"UTG","Reaves Utility Income Fund","Financial","Closed-End Fund - Equity","USA",3691.87,4.71,40.38,0.62%,202768
+997,"UUUU","Energy Fuels Inc","Energy","Uranium","USA",4510.78,,18.67,-5.80%,9633249
+998,"UWMC","UWM Holdings Corporation","Financial","Mortgage Finance","USA",5855.81,60.00,3.66,-2.14%,18053681
+999,"VAC","Marriott Vacations Worldwide Corp","Consumer Cyclical","Resorts & Casinos","USA",2229.17,,64.98,-1.63%,550999
+1000,"VAL","Valaris Ltd","Energy","Oil & Gas Equipment & Services","Bermuda",6489.71,6.70,93.82,1.10%,790727
+1001,"VC","Visteon Corp","Consumer Cyclical","Auto Parts","USA",2389.35,12.26,89.09,-1.27%,593890
+1002,"VCTR","Victory Capital Holdings Inc","Financial","Asset Management","USA",4270.19,16.34,66.67,0.30%,435423
+1003,"VCYT","Veracyte Inc","Healthcare","Diagnostics & Research","USA",2553.00,39.12,32.13,3.88%,1228707
+1004,"VERA","Vera Therapeutics Inc","Healthcare","Biotechnology","USA",2851.37,,39.96,-2.94%,1510611
+1005,"VERX","Vertex Inc","Technology","Software - Application","USA",2127.43,306.45,13.30,-3.20%,2046768
+1006,"VFC","VF Corp","Consumer Cyclical","Apparel Manufacturing","USA",6244.56,28.96,15.96,1.53%,7561076
+1007,"VFS","VinFast Auto Ltd","Consumer Cyclical","Auto Manufacturers","Vietnam",7252.49,,3.10,-0.64%,269731
+1008,"VIAV","Viavi Solutions Inc","Technology","Communication Equipment","USA",6934.74,,29.97,0.71%,3478927
+1009,"VICR","Vicor Corp","Technology","Electronic Components","USA",7830.04,66.26,172.57,2.84%,634257
+1010,"VIPS","Vipshop Holdings Ltd ADR","Consumer Cyclical","Internet Retail","China",6645.12,8.10,16.00,1.91%,1176205
+1011,"VIRT","Virtu Financial Inc","Financial","Capital Markets","USA",6045.84,7.62,39.09,-1.46%,953132
+1012,"VISN","Vistance Networks Inc","Technology","Communication Equipment","USA",3965.88,2.95,17.59,-1.07%,3772715
+1013,"VIST","Vista Energy S.A.B. de C.V ADR","Energy","Oil & Gas E&P","Mexico",6163.25,9.65,64.74,3.80%,2640296
+1014,"VKTX","Viking Therapeutics Inc","Healthcare","Biotechnology","USA",4117.20,,35.63,0.45%,2783067
+1015,"VLY","Valley National Bancorp","Financial","Banks - Regional","USA",6531.81,11.63,11.76,-0.84%,8888798
+1016,"VMI","Valmont Industries, Inc","Industrials","Conglomerates","USA",8002.03,24.34,409.62,-2.51%,201194
+1017,"VNET","VNET Group Inc ADR","Technology","Information Technology Services","China",2773.59,,10.51,-0.57%,7580031
+1018,"VNO","Vornado Realty Trust","Real Estate","REIT - Office","USA",5379.88,6.18,25.95,-0.35%,1725314
+1019,"VNT","Vontier Corporation","Technology","Scientific & Technical Instruments","USA",5099.02,13.06,36.01,-0.55%,771715
+1020,"VOYA","Voya Financial Inc","Financial","Financial Conglomerates","USA",6145.55,10.54,66.25,1.13%,1463689
+1021,"VRDN","Viridian Therapeutics Inc","Healthcare","Biotechnology","USA",2931.28,,28.68,0.95%,1131576
+1022,"VRNS","Varonis Systems Inc","Technology","Software - Infrastructure","USA",2899.20,,24.68,2.09%,1467821
+1023,"VRRM","Verra Mobility Corp","Technology","Information Technology Services","USA",2262.86,17.67,14.95,-1.39%,1455603
+1024,"VSAT","Viasat, Inc","Technology","Communication Equipment","USA",6267.26,,46.14,-0.80%,1188870
+1025,"VSCO","Victoria's Secret & Co","Consumer Cyclical","Apparel Retail","USA",3600.86,24.22,44.86,-0.24%,1826731
+1026,"VSEC","VSE Corp","Industrials","Aerospace & Defense","USA",5456.57,176.08,194.94,-2.47%,688802
+1027,"VSH","Vishay Intertechnology, Inc","Technology","Semiconductors","USA",2339.74,,17.23,0.47%,1184491
+1028,"VSNT","Versant Media Group Inc","Communication Services","Entertainment","USA",5399.35,5.84,37.55,-0.27%,2910144
+1029,"VVV","Valvoline Inc","Consumer Cyclical","Auto & Truck Dealerships","USA",4277.81,50.01,33.60,-1.29%,1359666
+1030,"VVX","V2X Inc","Industrials","Aerospace & Defense","USA",2085.50,27.33,66.90,-4.52%,1562710
+1031,"W","Wayfair Inc","Consumer Cyclical","Internet Retail","USA",9904.15,,75.75,2.73%,3023942
+1032,"WAFD","WaFd Inc","Financial","Banks - Regional","USA",2354.80,10.74,31.04,-0.03%,720048
+1033,"WAL","Western Alliance Bancorp","Financial","Banks - Regional","USA",7468.49,7.79,67.97,-0.22%,1128451
+1034,"WAY","Waystar Holding Corp","Healthcare","Health Information Services","USA",4631.03,39.63,24.16,-1.83%,2579722
+1035,"WBI","WaterBridge Infrastructure LLC","Energy","Oil & Gas Equipment & Services","USA",2032.82,,25.35,0.12%,614468
+1036,"WDFC","WD-40 Co","Basic Materials","Specialty Chemicals","USA",3033.88,34.18,224.96,-0.35%,133976
+1037,"WEX","WEX Inc","Technology","Software - Infrastructure","USA",5487.98,18.80,159.95,-0.24%,434298
+1038,"WFG","West Fraser Timber Co., Ltd","Basic Materials","Lumber & Wood Production","Canada",5051.13,,64.51,1.70%,174702
+1039,"WFRD","Weatherford International plc","Energy","Oil & Gas Equipment & Services","USA",6205.72,14.57,86.53,1.66%,1587536
+1040,"WGS","GeneDx Holdings Corp","Healthcare","Diagnostics & Research","USA",2278.08,,77.78,1.21%,470540
+1041,"WH","Wyndham Hotels & Resorts Inc","Consumer Cyclical","Lodging","USA",5516.68,29.70,73.41,-0.24%,1139943
+1042,"WHD","Cactus Inc","Energy","Oil & Gas Equipment & Services","USA",3702.23,19.28,46.36,0.78%,1207196
+1043,"WHR","Whirlpool Corp","Consumer Cyclical","Furnishings, Fixtures & Appliances","USA",3249.26,10.21,57.49,0.61%,2452240
+1044,"WING","Wingstop Inc","Consumer Cyclical","Restaurants","USA",5591.46,32.96,203.44,5.35%,1468844
+1045,"WIX","Wix.com Ltd","Technology","Software - Infrastructure","Israel",4849.13,112.40,88.09,1.36%,1818531
+1046,"WK","Workiva Inc","Technology","Software - Application","USA",3500.45,,61.59,0.37%,593287
+1047,"WOR","Worthington Enterprises Inc","Industrials","Metal Fabrication","USA",2345.54,22.30,47.34,0.74%,232251
+1048,"WPP","WPP Plc. ADR","Communication Services","Advertising Agencies","United Kingdom",3382.96,,15.68,-0.19%,784726
+1049,"WRBY","Warby Parker Inc","Healthcare","Medical Instruments & Supplies","USA",2946.09,1988.43,24.06,2.34%,2363126
+1050,"WRD","WeRide Inc. ADR","Technology","Software - Application","China",2155.73,,6.65,-2.49%,3715196
+1051,"WSBC","Wesbanco, Inc","Financial","Banks - Regional","USA",3203.45,16.04,33.33,0.54%,604920
+1052,"WSC","WillScot Holdings Corp","Industrials","Rental & Leasing Services","USA",3253.57,,17.99,-4.46%,1982359
+1053,"WSFS","WSFS Financial Corp","Financial","Banks - Regional","USA",3307.36,12.30,62.72,-0.30%,532669
+1054,"WT","WisdomTree Inc","Financial","Asset Management","USA",2161.07,20.56,15.26,0.79%,1425593
+1055,"WTFC","Wintrust Financial Corp","Financial","Banks - Regional","USA",8759.29,11.42,130.21,-1.00%,607315
+1056,"WTS","Watts Water Technologies, Inc","Industrials","Specialty Industrial Machinery","USA",9928.63,29.27,297.80,-1.81%,239491
+1057,"WU","Western Union Company","Financial","Credit Services","USA",2987.22,6.25,9.53,-2.06%,7482479
+1058,"WULF","TeraWulf Inc","Financial","Capital Markets","USA",6221.08,,14.67,0.00%,27556907
+1059,"WVE","Wave Life Sciences Ltd","Healthcare","Biotechnology","Singapore",2451.08,,13.02,-2.47%,2830257
+1060,"XENE","Xenon Pharmaceuticals Inc","Healthcare","Biotechnology","Canada",4594.60,,55.23,-4.61%,3850002
+1061,"XP","XP Inc","Financial","Capital Markets","Brazil",9590.35,11.01,18.20,0.78%,10477005
+1062,"XRAY","DENTSPLY Sirona Inc","Healthcare","Medical Instruments & Supplies","USA",2305.11,,11.54,-2.20%,5266963
+1063,"XXI","Twenty One Capital Inc","Financial","Shell Companies","USA",2079.03,20.07,6.82,1.64%,1067468
+1064,"YETI","YETI Holdings Inc","Consumer Cyclical","Leisure","USA",2745.04,17.88,36.47,0.94%,1062677
+1065,"YMM","Full Truck Alliance Co Ltd ADR","Technology","Software - Application","China",8181.99,15.26,8.78,-2.23%,9662808
+1066,"YOU","Clear Secure Inc","Technology","Software - Application","USA",5920.63,40.02,44.63,-0.40%,1150910
+1067,"YSS","York Space Systems Inc","Industrials","Aerospace & Defense","USA",2514.77,,19.81,-0.85%,1276135
+1068,"ZBRA","Zebra Technologies Corp","Technology","Communication Equipment","USA",9972.14,24.83,202.72,-0.65%,755490
+1069,"ZETA","Zeta Global Holdings Corp","Technology","Software - Infrastructure","USA",4387.62,,17.84,-1.16%,4676422
+1070,"ZGN","Ermenegildo Zegna N.V","Consumer Cyclical","Apparel Manufacturing","Italy",3967.99,23.94,9.70,-3.48%,720439
+1071,"ZIM","Zim Integrated Shipping Services Ltd","Industrials","Marine Shipping","Israel",3251.15,6.79,26.99,-0.77%,1724483
+1072,"ZION","Zions Bancorporation N.A","Financial","Banks - Regional","USA",7852.90,8.84,53.10,-2.10%,1412889
+1073,"ZLAB","Zai Lab Limited ADR","Healthcare","Biotechnology","China",2058.73,,18.37,-2.65%,429214
+1074,"ZWS","Zurn Elkay Water Solutions Corp","Industrials","Pollution & Treatment Controls","USA",7627.67,39.41,45.73,-0.28%,907442

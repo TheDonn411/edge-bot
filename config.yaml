@@ -1,0 +1,262 @@
+# edge-bot configuration
+# All tunable parameters live here. Import via config.load_config().
+# Env-var override: EDGE_BOT__SECTION__KEY=value
+
+# ── API Keys ──────────────────────────────────────────────────────────────────
+# Set via env vars — never hardcode keys here.
+# export EDGE_BOT__APIS__FINNHUB_KEY=your_key
+# export EDGE_BOT__APIS__ALPHA_VANTAGE_KEY=your_key
+# export EDGE_BOT__APIS__FMP_KEY=your_key
+apis:
+  finnhub_key: ""
+  alpha_vantage_key: ""
+  fmp_key: ""                  # get free key at financialmodelingprep.com (250 calls/day)
+
+# ── Screener ───────────────────────────────────────────────────────────────────
+
+screener:
+  min_market_cap: 2_000_000_000   # $2B  (medium cap lower bound)
+  max_market_cap: 10_000_000_000  # $10B (medium cap upper bound)
+  min_days_out: 7                 # earnings at least 7 days away
+  max_days_out: 14                # earnings at most 14 days away
+  min_avg_volume: 500_000         # 3-month average daily volume
+  top_n: 15                       # number of picks to keep
+
+universe:
+  watchlist:
+    # Technology
+    - PATH    # UiPath Inc (6.2B, automation/AI)
+    - SOUN    # SoundHound AI Inc (3.1B, AI voice)
+    - AUR     # Aurora Innovation Inc (8.0B, autonomous driving)
+    - S       # SentinelOne Inc (4.9B, cybersecurity)
+    - BILL    # Bill.com Holdings Inc (5.5B, fintech SaaS)
+    # Communication Services
+    - SNAP    # Snap Inc (7.7B, social media)
+    - LUMN    # Lumen Technologies Inc (6.8B, telecom)
+    # Healthcare
+    - HIMS    # Hims & Hers Health Inc (5.6B, direct-to-consumer)
+    - AVTR    # Avantor Inc (5.4B, life sciences)
+    - INDV    # Indivior Pharmaceuticals Inc (3.9B, addiction treatment)
+    # Consumer Cyclical
+    - NCLH    # Norwegian Cruise Line Holdings (8.6B, cruises)
+    - UAA     # Under Armour Inc (2.7B, apparel)
+    # Consumer Defensive
+    - CAG     # Conagra Brands Inc (7.9B, packaged foods)
+    - CPB     # Campbell's Co (6.5B, food)
+    # Industrials
+    - AAL     # American Airlines Group Inc (6.8B, airlines)
+    - PLUG    # Plug Power Inc (3.0B, hydrogen fuel cells)
+    - ADT     # ADT Inc (5.3B, security services)
+    - SMR     # NuScale Power Corporation (4.0B, nuclear energy)
+    # Basic Materials
+    - CLF     # Cleveland-Cliffs Inc (4.8B, steel)
+    - MOS     # Mosaic Company (9.3B, fertilizers)
+    # Energy
+    - PTEN    # Patterson-UTI Energy Inc (3.9B, oilfield services)
+    - UEC     # Uranium Energy Corp (6.6B, uranium)
+    # Real Estate
+    - OPEN    # Opendoor Technologies Inc (4.7B, real estate tech)
+    - COMP    # Compass Inc (6.2B, real estate brokerage)
+    - MPT     # Medical Properties Trust Inc (2.9B, healthcare REIT)
+    # Financial
+    - UWMC    # UWM Holdings Corporation (5.9B, mortgage)
+    - VLY     # Valley National Bancorp (6.5B, regional bank)
+    - RITM    # Rithm Capital Corporation (5.3B, mortgage REIT)
+  max_positions: 10
+  min_adv_usd: 1_000_000 # minimum average daily dollar volume
+
+data:
+  provider: yfinance
+  timeframe: "1d"
+  lookback_days: 365
+  cache_dir: data/processed
+
+# ── Signals ────────────────────────────────────────────────────────────────────
+
+signals:
+  # Existing signals (used in BacktestEngine / legacy paths)
+  momentum:
+    enabled: true
+    lookback: 20
+    weight: 1.0
+  mean_reversion:
+    enabled: true
+    bb_period: 20
+    bb_std: 2.0
+    weight: 1.0
+  ml_score:
+    enabled: false
+    model_path: models/xgb_v1.json
+    weight: 2.0
+  sentiment:                   # FinBERT on externally-supplied headlines
+    enabled: false
+    model_name: "ProsusAI/finbert"
+    weight: 1.0
+
+  # ── New signals ──────────────────────────────────────────────────────────────
+
+  volume:
+    enabled: true
+    window: 20                 # rolling z-score window (candles)
+    obv_slope_window: 10       # OBV linear-slope window (candles)
+    threshold: 0.7             # flag if volume_score >= threshold
+    intervals: ["1d"]          # yfinance intervals to fetch; e.g. "1m","5m","1d"
+    default_interval: "1d"
+    weight: 0.25               # composite picker weight
+
+  spike:
+    enabled: true
+    model_path: models/spike_model.pkl              # v1 — general market
+    model_path_v3: models/spike_model_v3_smallcap.pkl  # v3 — small/mid-cap catalyst
+    label_horizon: 5           # candles ahead for label (v1)
+    label_horizon_v3: 3        # candles ahead for v3 (magnitude label)
+    label_pct_threshold: 0.02  # 2% directional rise = positive (v1)
+    label_pct_v3: 0.08         # 8% abs move = positive (v3)
+    predict_threshold: 0.60    # minimum probability to flag as spike
+    retrain_lookback_days: 1095  # 3 years for v3 training
+    fmp_key: ""                # for FMP analyst estimates (v3 feature)
+    weight: 0.30
+
+  sentiment_news:              # Finnhub primary + Alpha Vantage/FinBERT fallback
+    enabled: true
+    alpha_vantage_key: ""        # set via EDGE_BOT__APIS__ALPHA_VANTAGE_KEY
+    finnhub_key: ""              # set via EDGE_BOT__APIS__FINNHUB_KEY
+    model_name: "ProsusAI/finbert"
+    cache_ttl_min: 15
+    recency_buckets:           # hours; earlier bucket = higher weight
+      bucket_1_hrs: 2
+      bucket_2_hrs: 24
+      bucket_3_hrs: 168        # 7 days
+    bucket_weights: [1.0, 0.6, 0.3]
+    analyst_weight_multiplier: 2.0
+    max_headlines: 10
+    weight: 0.20
+
+  flow:
+    enabled: true              # congressional + 13F are free/public APIs
+    weight: 0.25
+    congressional:
+      enabled: true
+      weight: 0.40
+      finnhub_key: ""            # set via EDGE_BOT__APIS__FINNHUB_KEY
+      tier1_weight: 2.0        # Pelosi, Tuberville, Collins, Paul, Wasserman Schultz
+      tier2_weight: 1.5        # committee chairs (add to CongressionalSignal.TIER_2_NAMES)
+      tier3_weight: 1.0        # all others
+      cache_ttl_hours: 4       # refresh at most every 4 hours (data updates daily)
+      max_pages: 3             # pages to fetch per chamber
+    insider:
+      enabled: true
+      weight: 0.25
+      finnhub_key: ""            # set via EDGE_BOT__APIS__FINNHUB_KEY
+      lookback_days: 30
+      ceo_buy_alert_threshold: 500_000  # USD — triggers CEO_BUY_ALERT flag
+      role_weights:
+        ceo: 1.0
+        president: 1.0
+        cfo: 0.9
+        coo: 0.9
+        director: 0.7
+        owner: 0.8             # 10% owner
+    institutional:
+      enabled: true
+      weight: 0.35
+      min_funds_threshold: 3   # require ≥N funds added position
+      target_funds:            # name → SEC EDGAR CIK
+        Bridgewater: "1350694"
+        Citadel: "1423053"
+        Renaissance: "1037389"
+        Millennium: "1273931"
+        TwoSigma: "1179392"
+        PershingSquare: "1336528"
+        Appaloosa: "1446905"
+        TigerGlobal: "1167483"
+    options:
+      enabled: false           # stubbed out; replaced by insider Form 4 signal
+      weight: 0.0
+      stub: true
+      unusual_whales_key: ""
+      max_expiry_days: 30
+      min_premium_usd: 10_000
+
+# ── Picker ─────────────────────────────────────────────────────────────────────
+
+picker:
+  score_threshold: 0.65          # legacy; used by BacktestEngine
+  min_composite_score: 0.45      # live picker entry gate
+  min_catalyst_score: 0.55       # catalyst signal gate (spike + flow combined)
+  require_direction_bias: true   # skip BEARISH-bias stocks (long-only: NEUTRAL is allowed)
+  sector_cap: 3
+  top_n: 3
+  dry_run: false
+  log_file: logs/picks.log
+  composite_weights:
+    volume_score: 0.20
+    spike_probability: 0.25
+    sentiment_score: 0.15
+    flow_score: 0.20
+    technical_score: 0.20
+
+# ── Risk ───────────────────────────────────────────────────────────────────────
+
+risk:
+  max_portfolio_pct: 0.10      # max single-position weight
+  kelly_fraction: 0.25         # fractional Kelly multiplier
+  max_drawdown_pct: 0.15       # portfolio kill switch
+  daily_loss_limit_pct: 0.03   # legacy; see max_daily_loss_pct below
+  stop_loss_pct: 0.07          # per-position hard stop (pct)
+  # New risk manager params
+  max_open_positions: 5
+  max_daily_loss_pct: 0.05     # kills the bot for the day
+  max_leverage_stocks: 2.0
+  max_leverage_cfds: 5.0
+  atr_stop_multiplier: 1.5     # stop = entry - (ATR_14 * multiplier)
+  alert:
+    email_enabled: false
+    smtp_host: smtp.gmail.com
+    smtp_port: 587
+    smtp_user: ""
+    smtp_password: ""          # set via env EDGE_BOT__RISK__ALERT__SMTP_PASSWORD
+    alert_recipient: ""
+
+# ── Execution ──────────────────────────────────────────────────────────────────
+
+execution:
+  broker: ibkr_stub            # ibkr_stub | ibkr_live
+  paper_trading: true
+  allow_short_selling: false
+  slippage_bps: 5
+  commission_per_share: 0.005
+
+# ── Backtest ───────────────────────────────────────────────────────────────────
+
+backtest:
+  start: "2022-01-01"
+  end: "2024-12-31"
+  initial_capital: 100_000
+  benchmark: "SPY"
+  metrics: [sharpe, max_drawdown, cagr, win_rate]
+  spike:
+    symbol: "AAPL"             # default symbol for spike_backtest.py
+    interval: "1d"
+    entry_threshold: 0.60      # spike_probability to enter
+    exit_candles: 5            # hold for N candles then exit
+
+# ── Scheduler ─────────────────────────────────────────────────────────────────
+
+scheduler:
+  market_open_offset_min: 5
+  market_close_offset_min: 15
+  timezone: "America/New_York"
+
+# ── Logging ───────────────────────────────────────────────────────────────────
+
+logging:
+  level: INFO
+  rotation: "10 MB"
+  log_dir: logs/
+
+portfolio:
+  enabled: true
+  auto_save: true
+  trades_file: logs/trades.csv
+  snapshots_file: logs/portfolio_snapshots.csv
